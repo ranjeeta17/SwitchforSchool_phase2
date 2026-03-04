@@ -1,0 +1,2069 @@
+{
+    "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21": {
+        "class_name": "Class 2Q",
+        "class_id": "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.75. Avg tiredness: 4.3. Trend: improving."
+    },
+    "e8658613-e2e8-42a7-a159-fc38608f2d36": {
+        "class_name": "Class 4A",
+        "class_id": "e8658613-e2e8-42a7-a159-fc38608f2d36",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.81. Avg tiredness: 4.6. Trend: stable. Absence rate: 6.2%."
+    },
+    "6c4176ed-7413-4fe1-b3a7-7347577e1bc3": {
+        "class_name": "Class 4G",
+        "class_id": "6c4176ed-7413-4fe1-b3a7-7347577e1bc3",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "0049a21e-bbfb-438f-92ab-1f847fb8ba62": {
+        "class_name": "Class 11T",
+        "class_id": "0049a21e-bbfb-438f-92ab-1f847fb8ba62",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.4. Trend: stable."
+    },
+    "006ebdb6-35ab-417a-81fa-e570143e81dc": {
+        "class_name": "Class 5Z",
+        "class_id": "006ebdb6-35ab-417a-81fa-e570143e81dc",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.9. Trend: stable."
+    },
+    "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847": {
+        "class_name": "Class 3Y",
+        "class_id": "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.73. Avg tiredness: 4.6. Trend: stable. Absence rate: 6.1%."
+    },
+    "0eef8c82-18e2-476a-95f0-d2f36632e528": {
+        "class_name": "Class 9W",
+        "class_id": "0eef8c82-18e2-476a-95f0-d2f36632e528",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "06dbdc20-88ee-489b-9876-79ff1483e8fe": {
+        "class_name": "Class 1H",
+        "class_id": "06dbdc20-88ee-489b-9876-79ff1483e8fe",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.66. Avg tiredness: 4.3. Trend: declining."
+    },
+    "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e": {
+        "class_name": "Class 3V",
+        "class_id": "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.86. Avg tiredness: 4.8. Trend: improving."
+    },
+    "104d0a56-9b6d-41f6-8faa-b96a36f21952": {
+        "class_name": "Class 7J",
+        "class_id": "104d0a56-9b6d-41f6-8faa-b96a36f21952",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.56. Avg tiredness: 4.1. Trend: declining. Absence rate: 7.0%."
+    },
+    "1124587c-00fb-4489-8302-a7c3db4b7f2b": {
+        "class_name": "Class 8Q",
+        "class_id": "1124587c-00fb-4489-8302-a7c3db4b7f2b",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.7. Trend: stable."
+    },
+    "14607736-aee5-40b2-a45a-54ddbd9c9f9b": {
+        "class_name": "Class 11A",
+        "class_id": "14607736-aee5-40b2-a45a-54ddbd9c9f9b",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.65. Avg tiredness: 4.2. Trend: stable."
+    },
+    "15662d0c-3fa5-4f36-b239-4a63f999411e": {
+        "class_name": "Class 5T",
+        "class_id": "15662d0c-3fa5-4f36-b239-4a63f999411e",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.77. Avg tiredness: 4.5. Trend: declining."
+    },
+    "16120bdf-8558-4a45-978e-e9a26dc90d06": {
+        "class_name": "Class 8L",
+        "class_id": "16120bdf-8558-4a45-978e-e9a26dc90d06",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "High absence rate (24.9%) - check in with absent students"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.2. Trend: stable. Absence rate: 24.9%."
+    },
+    "166d6a19-31bb-48e3-9309-78859552c412": {
+        "class_name": "Class 9W",
+        "class_id": "166d6a19-31bb-48e3-9309-78859552c412",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.93. Avg tiredness: 4.6. Trend: stable."
+    },
+    "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9": {
+        "class_name": "Class 12N",
+        "class_id": "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.71. Avg tiredness: 4.5. Trend: stable."
+    },
+    "083bc44a-d735-46f9-bc0a-d9b4d93efcbe": {
+        "class_name": "Class 8L",
+        "class_id": "083bc44a-d735-46f9-bc0a-d9b4d93efcbe",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "20-30 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.64. Avg tiredness: 3.8. Trend: declining."
+    },
+    "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d": {
+        "class_name": "Class 1E",
+        "class_id": "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.84. Avg tiredness: 4.4. Trend: stable."
+    },
+    "1c44805b-ca90-4a15-a14c-05694389782f": {
+        "class_name": "Class 5P",
+        "class_id": "1c44805b-ca90-4a15-a14c-05694389782f",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.86. Avg tiredness: 4.7. Trend: improving."
+    },
+    "2816ccef-94a4-4d49-8892-e726a4eec97c": {
+        "class_name": "Class 9Z",
+        "class_id": "2816ccef-94a4-4d49-8892-e726a4eec97c",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.7. Trend: stable. Absence rate: 9.3%."
+    },
+    "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b": {
+        "class_name": "Class 8L",
+        "class_id": "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.62. Avg tiredness: 4.4. Trend: declining. Absence rate: 6.3%."
+    },
+    "2b82403a-eda7-449d-a68a-bd9999bec02c": {
+        "class_name": "Class 6N",
+        "class_id": "2b82403a-eda7-449d-a68a-bd9999bec02c",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.80. Avg tiredness: 4.7. Trend: stable."
+    },
+    "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37": {
+        "class_name": "Class 9P",
+        "class_id": "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.79. Avg tiredness: 4.5. Trend: improving."
+    },
+    "2f96a585-ba4c-4253-b5e3-351703bc26a7": {
+        "class_name": "Class 10Q",
+        "class_id": "2f96a585-ba4c-4253-b5e3-351703bc26a7",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.82. Avg tiredness: 4.7. Trend: stable."
+    },
+    "299a0245-942a-4197-874e-186e70b45ae5": {
+        "class_name": "Class 1E",
+        "class_id": "299a0245-942a-4197-874e-186e70b45ae5",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.68. Avg tiredness: 4.0. Trend: declining."
+    },
+    "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c": {
+        "class_name": "Class 9M",
+        "class_id": "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "High absence rate (11.4%) - check in with absent students"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.8. Trend: stable. Absence rate: 11.4%."
+    },
+    "38662ddb-4a6e-4d82-8c7d-951af189970c": {
+        "class_name": "Class 10M",
+        "class_id": "38662ddb-4a6e-4d82-8c7d-951af189970c",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.65. Avg tiredness: 4.3. Trend: declining."
+    },
+    "3a86dc44-1468-4f87-9b21-b338fa07ad24": {
+        "class_name": "Class 11N",
+        "class_id": "3a86dc44-1468-4f87-9b21-b338fa07ad24",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.3. Trend: stable."
+    },
+    "39030cc0-d6f5-44bb-86ba-8638736855e0": {
+        "class_name": "Class 8O",
+        "class_id": "39030cc0-d6f5-44bb-86ba-8638736855e0",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.7. Trend: stable."
+    },
+    "45d3b747-dbb6-41b3-89de-68892ad5bc94": {
+        "class_name": "Class 2J",
+        "class_id": "45d3b747-dbb6-41b3-89de-68892ad5bc94",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.67. Avg tiredness: 4.5. Trend: stable. Absence rate: 6.8%."
+    },
+    "482c7f18-cddd-4bdc-8247-92b5a4a7733e": {
+        "class_name": "Class 2P",
+        "class_id": "482c7f18-cddd-4bdc-8247-92b5a4a7733e",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.67. Avg tiredness: 4.1. Trend: stable."
+    },
+    "18598790-9570-4f0d-9678-0aeab20c6bce": {
+        "class_name": "Class 12W",
+        "class_id": "18598790-9570-4f0d-9678-0aeab20c6bce",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.87. Avg tiredness: 4.8. Trend: stable. Absence rate: 8.1%."
+    },
+    "104ac756-cd28-426b-b49b-a05f25d6edd9": {
+        "class_name": "Class 7Z",
+        "class_id": "104ac756-cd28-426b-b49b-a05f25d6edd9",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable. Absence rate: 9.4%."
+    },
+    "4a0d0bf7-ace3-4649-8075-ff44d6f7a250": {
+        "class_name": "Class 5P",
+        "class_id": "4a0d0bf7-ace3-4649-8075-ff44d6f7a250",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "48ea7071-6c7d-4eab-b527-bc1b5bd77434": {
+        "class_name": "Class 7Z",
+        "class_id": "48ea7071-6c7d-4eab-b527-bc1b5bd77434",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "58dfd3b5-d430-4bcf-9b5f-363e901a9590": {
+        "class_name": "Class 10V",
+        "class_id": "58dfd3b5-d430-4bcf-9b5f-363e901a9590",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.87. Avg tiredness: 4.5. Trend: improving."
+    },
+    "4e8d4046-3a88-4089-90cf-1175200d5981": {
+        "class_name": "Class 3I",
+        "class_id": "4e8d4046-3a88-4089-90cf-1175200d5981",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.80. Avg tiredness: 4.6. Trend: stable."
+    },
+    "602ef40c-1cc3-4940-80ca-7240f48121e8": {
+        "class_name": "Class 9O",
+        "class_id": "602ef40c-1cc3-4940-80ca-7240f48121e8",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.82. Avg tiredness: 4.6. Trend: stable."
+    },
+    "61988215-68b1-4c19-8e70-8ddbca8f5106": {
+        "class_name": "Class 12L",
+        "class_id": "61988215-68b1-4c19-8e70-8ddbca8f5106",
+        "emotional_state": "HAPPY",
+        "priority_level": "MEDIUM",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "20-30 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.66. Avg tiredness: 3.5. Trend: stable."
+    },
+    "632e2920-ce33-4f78-b971-cf2da4ca751d": {
+        "class_name": "Class 7H",
+        "class_id": "632e2920-ce33-4f78-b971-cf2da4ca751d",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "4ec7fd9b-ced4-401e-b526-e83bf096c1ca": {
+        "class_name": "Class 3V",
+        "class_id": "4ec7fd9b-ced4-401e-b526-e83bf096c1ca",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "20-30 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.61. Avg tiredness: 3.9. Trend: declining. Absence rate: 5.1%."
+    },
+    "672fda93-4e49-45ae-a1e9-63baa4e8052e": {
+        "class_name": "Class 11G",
+        "class_id": "672fda93-4e49-45ae-a1e9-63baa4e8052e",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.70. Avg tiredness: 4.4. Trend: declining."
+    },
+    "6887da6f-3ea6-4b8b-ac34-a2955c884a56": {
+        "class_name": "Class 12O",
+        "class_id": "6887da6f-3ea6-4b8b-ac34-a2955c884a56",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.76. Avg tiredness: 4.2. Trend: stable."
+    },
+    "6a9c4ced-3a53-46b0-8a89-68556b63b5bd": {
+        "class_name": "Class 9V",
+        "class_id": "6a9c4ced-3a53-46b0-8a89-68556b63b5bd",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.72. Avg tiredness: 4.4. Trend: stable."
+    },
+    "6f83c644-6230-47cd-b1d4-3da7085dcab5": {
+        "class_name": "Class 2L",
+        "class_id": "6f83c644-6230-47cd-b1d4-3da7085dcab5",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.75. Avg tiredness: 4.4. Trend: declining."
+    },
+    "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef": {
+        "class_name": "Class 2L",
+        "class_id": "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "High absence rate (12.6%) - check in with absent students"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable. Absence rate: 12.6%."
+    },
+    "774f466f-c890-4e87-ba32-9161c8134081": {
+        "class_name": "Class 6P",
+        "class_id": "774f466f-c890-4e87-ba32-9161c8134081",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.3. Trend: stable."
+    },
+    "782db4dc-bbd2-4878-910f-1468cfb42bc8": {
+        "class_name": "Class 5Q",
+        "class_id": "782db4dc-bbd2-4878-910f-1468cfb42bc8",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.82. Avg tiredness: 4.6. Trend: stable. Absence rate: 8.3%."
+    },
+    "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61": {
+        "class_name": "Class 6G",
+        "class_id": "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.70. Avg tiredness: 4.3. Trend: stable."
+    },
+    "79cca8b6-5326-48ca-9d7e-eaa935eaffbc": {
+        "class_name": "Class 10E",
+        "class_id": "79cca8b6-5326-48ca-9d7e-eaa935eaffbc",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.80. Avg tiredness: 4.3. Trend: stable."
+    },
+    "7ef8e858-cf04-454b-b1ca-2216a27c2c67": {
+        "class_name": "Class 1D",
+        "class_id": "7ef8e858-cf04-454b-b1ca-2216a27c2c67",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "High absence rate (10.7%) - check in with absent students"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.86. Avg tiredness: 4.5. Trend: stable. Absence rate: 10.7%."
+    },
+    "8361e50a-54a0-4b3f-89ab-998e658915a6": {
+        "class_name": "Class 8M",
+        "class_id": "8361e50a-54a0-4b3f-89ab-998e658915a6",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "85eb62af-55fe-433c-80c2-7534462cb32d": {
+        "class_name": "Class 9E",
+        "class_id": "85eb62af-55fe-433c-80c2-7534462cb32d",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.71. Avg tiredness: 4.1. Trend: stable."
+    },
+    "864331ef-1928-472d-9dbc-4a900fe34279": {
+        "class_name": "Class 5A",
+        "class_id": "864331ef-1928-472d-9dbc-4a900fe34279",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.71. Avg tiredness: 4.5. Trend: stable."
+    },
+    "8b8343af-06d2-4922-8f66-af0abb8c8d42": {
+        "class_name": "Class 3K",
+        "class_id": "8b8343af-06d2-4922-8f66-af0abb8c8d42",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.88. Avg tiredness: 4.6. Trend: stable."
+    },
+    "8ce511b5-e810-480c-bc7d-fa84e84a6580": {
+        "class_name": "Class 8M",
+        "class_id": "8ce511b5-e810-480c-bc7d-fa84e84a6580",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.76. Avg tiredness: 4.4. Trend: stable."
+    },
+    "8e64ae85-5fd4-4179-be28-169c314a2359": {
+        "class_name": "Class 1K",
+        "class_id": "8e64ae85-5fd4-4179-be28-169c314a2359",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.3. Trend: stable."
+    },
+    "908274ac-a1ae-42b3-ba07-9835de66dccf": {
+        "class_name": "Class 6P",
+        "class_id": "908274ac-a1ae-42b3-ba07-9835de66dccf",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.8. Trend: stable. Absence rate: 7.8%."
+    },
+    "910a01d8-4593-46be-b990-9c891d28c022": {
+        "class_name": "Class 7E",
+        "class_id": "910a01d8-4593-46be-b990-9c891d28c022",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.3. Trend: stable. Absence rate: 8.5%."
+    },
+    "917e6e5e-bd54-4a71-aa24-5d7366f19c73": {
+        "class_name": "Class 7O",
+        "class_id": "917e6e5e-bd54-4a71-aa24-5d7366f19c73",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.82. Avg tiredness: 4.5. Trend: stable."
+    },
+    "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff": {
+        "class_name": "Class 11A",
+        "class_id": "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.1. Trend: stable. Absence rate: 8.6%."
+    },
+    "97045756-e77b-4af0-a722-6fba627f5660": {
+        "class_name": "Class 2L",
+        "class_id": "97045756-e77b-4af0-a722-6fba627f5660",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.8. Trend: stable. Absence rate: 6.0%."
+    },
+    "9bebf5b2-9e00-4896-b259-9d2c751f1c5e": {
+        "class_name": "Class 6K",
+        "class_id": "9bebf5b2-9e00-4896-b259-9d2c751f1c5e",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.84. Avg tiredness: 4.8. Trend: improving."
+    },
+    "9e67b111-8b86-4d7f-b539-b07c16c15862": {
+        "class_name": "Class 2T",
+        "class_id": "9e67b111-8b86-4d7f-b539-b07c16c15862",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.7. Trend: stable."
+    },
+    "78fb554b-32d9-4da7-b881-834ab10580c1": {
+        "class_name": "Class 2Q",
+        "class_id": "78fb554b-32d9-4da7-b881-834ab10580c1",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.86. Avg tiredness: 4.5. Trend: stable."
+    },
+    "a2cf13b8-e26b-4197-ac02-a53638177530": {
+        "class_name": "Class 1B",
+        "class_id": "a2cf13b8-e26b-4197-ac02-a53638177530",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.88. Avg tiredness: 4.9. Trend: stable."
+    },
+    "a6d9c68d-cf8d-4e58-8828-b97150b0d415": {
+        "class_name": "Class 12J",
+        "class_id": "a6d9c68d-cf8d-4e58-8828-b97150b0d415",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.83. Avg tiredness: 4.6. Trend: improving."
+    },
+    "ad451a96-2a18-4299-a13b-4d3af86f445d": {
+        "class_name": "Class 9T",
+        "class_id": "ad451a96-2a18-4299-a13b-4d3af86f445d",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.90. Avg tiredness: 4.6. Trend: improving."
+    },
+    "aa1c50e8-eecd-48c0-81ff-d27401ca5a54": {
+        "class_name": "Class 1I",
+        "class_id": "aa1c50e8-eecd-48c0-81ff-d27401ca5a54",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "b11781fb-7a23-4115-ba29-980139bedb1b": {
+        "class_name": "Class 1N",
+        "class_id": "b11781fb-7a23-4115-ba29-980139bedb1b",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 0.99. Avg tiredness: 5.0. Trend: stable."
+    },
+    "b1f213e8-5430-423a-b4a6-b761981234df": {
+        "class_name": "Class 11Z",
+        "class_id": "b1f213e8-5430-423a-b4a6-b761981234df",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.66. Avg tiredness: 4.3. Trend: stable."
+    },
+    "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe": {
+        "class_name": "Class 10J",
+        "class_id": "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.86. Avg tiredness: 4.7. Trend: stable."
+    },
+    "b0ab0362-959c-4572-861f-e1042994cffd": {
+        "class_name": "Class 5M",
+        "class_id": "b0ab0362-959c-4572-861f-e1042994cffd",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable. Absence rate: 9.9%."
+    },
+    "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd": {
+        "class_name": "Class 7H",
+        "class_id": "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable. Absence rate: 8.3%."
+    },
+    "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012": {
+        "class_name": "Class 12C",
+        "class_id": "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.84. Avg tiredness: 4.5. Trend: stable."
+    },
+    "bec2d3be-3c66-48bf-a92b-3cd4acc66280": {
+        "class_name": "Class 6K",
+        "class_id": "bec2d3be-3c66-48bf-a92b-3cd4acc66280",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.84. Avg tiredness: 4.4. Trend: declining."
+    },
+    "bf03284a-263e-4aee-897e-bab1808d004d": {
+        "class_name": "Class 5X",
+        "class_id": "bf03284a-263e-4aee-897e-bab1808d004d",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.69. Avg tiredness: 4.3. Trend: declining."
+    },
+    "c3c673e0-45c5-4527-96b1-b587655ca6f2": {
+        "class_name": "Class 7I",
+        "class_id": "c3c673e0-45c5-4527-96b1-b587655ca6f2",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "Positive trend detected - continue current strategy",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.83. Avg tiredness: 4.6. Trend: improving."
+    },
+    "c540d4c4-af00-4d65-a4e0-232623751a49": {
+        "class_name": "Class 11M",
+        "class_id": "c540d4c4-af00-4d65-a4e0-232623751a49",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "20-30 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 3.9. Trend: stable."
+    },
+    "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152": {
+        "class_name": "Class 10S",
+        "class_id": "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.77. Avg tiredness: 4.7. Trend: stable."
+    },
+    "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34": {
+        "class_name": "Class 6L",
+        "class_id": "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.99. Avg tiredness: 4.5. Trend: stable."
+    },
+    "c5ab524e-2b91-43e9-a90d-ae53c95db989": {
+        "class_name": "Class 2L",
+        "class_id": "c5ab524e-2b91-43e9-a90d-ae53c95db989",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "20-30 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.70. Avg tiredness: 4.0. Trend: declining."
+    },
+    "d2feacaf-6b98-465b-af91-b4e806261a35": {
+        "class_name": "Class 9V",
+        "class_id": "d2feacaf-6b98-465b-af91-b4e806261a35",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.80. Avg tiredness: 4.5. Trend: stable. Absence rate: 5.2%."
+    },
+    "d7bacc85-1cfe-430f-80d2-3843b150ab57": {
+        "class_name": "Class 6N",
+        "class_id": "d7bacc85-1cfe-430f-80d2-3843b150ab57",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c": {
+        "class_name": "Class 10K",
+        "class_id": "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.87. Avg tiredness: 4.5. Trend: declining."
+    },
+    "d87e6036-ce2d-4236-bf74-f567f67dc8c1": {
+        "class_name": "Class 4Q",
+        "class_id": "d87e6036-ce2d-4236-bf74-f567f67dc8c1",
+        "emotional_state": "EXCITED",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Hands-on experiments",
+            "Interactive presentations",
+            "Movement breaks",
+            "Brainstorming sessions"
+        ],
+        "activity_focus": "Channel high energy into productive learning",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Harnesses excitement for active learning and engagement",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: EXCITED. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "db031dc7-ee54-4b7a-888c-64d796f99e52": {
+        "class_name": "Class 9M",
+        "class_id": "db031dc7-ee54-4b7a-888c-64d796f99e52",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "High absence rate (10.1%) - check in with absent students"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable. Absence rate: 10.1%."
+    },
+    "dccba97a-2981-490f-8156-3b1844049acb": {
+        "class_name": "Class 10S",
+        "class_id": "dccba97a-2981-490f-8156-3b1844049acb",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [
+            "Emotional trend is declining - monitor closely and provide extra support"
+        ],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.64. Avg tiredness: 4.2. Trend: declining."
+    },
+    "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a": {
+        "class_name": "Class 10J",
+        "class_id": "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.79. Avg tiredness: 4.6. Trend: stable."
+    },
+    "decbe748-4470-4542-b113-376c00cd2483": {
+        "class_name": "Class 12X",
+        "class_id": "decbe748-4470-4542-b113-376c00cd2483",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable. Absence rate: 8.1%."
+    },
+    "e2bcb306-f002-4feb-b7be-9d44d4cea520": {
+        "class_name": "Class 12L",
+        "class_id": "e2bcb306-f002-4feb-b7be-9d44d4cea520",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 0.84. Avg tiredness: 4.5. Trend: stable. Absence rate: 6.7%."
+    },
+    "e576f060-28d0-4506-8c22-a2b9afcb06ee": {
+        "class_name": "Class 7O",
+        "class_id": "e576f060-28d0-4506-8c22-a2b9afcb06ee",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "e822bd46-e4f2-4310-95f7-de1ad4a01c24": {
+        "class_name": "Class 10G",
+        "class_id": "e822bd46-e4f2-4310-95f7-de1ad4a01c24",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.5. Trend: stable."
+    },
+    "e8d96f86-ebf3-4055-bb2f-865012e9c090": {
+        "class_name": "Class 3X",
+        "class_id": "e8d96f86-ebf3-4055-bb2f-865012e9c090",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable. Absence rate: 8.3%."
+    },
+    "ef9bea77-fddb-490d-a2d0-e1cb7cf76622": {
+        "class_name": "Class 1D",
+        "class_id": "ef9bea77-fddb-490d-a2d0-e1cb7cf76622",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "f6111951-4eb1-4da9-b4bb-02eee64ac2c2": {
+        "class_name": "Class 4X",
+        "class_id": "f6111951-4eb1-4da9-b4bb-02eee64ac2c2",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.6. Trend: stable."
+    },
+    "f74856c3-b0f2-4864-98b3-b6efb95134a9": {
+        "class_name": "Class 7Z",
+        "class_id": "f74856c3-b0f2-4864-98b3-b6efb95134a9",
+        "emotional_state": "HAPPY",
+        "priority_level": "HIGH",
+        "recommended_activities": [
+            "Group discussion",
+            "Creative projects",
+            "Peer teaching",
+            "Team building games"
+        ],
+        "activity_focus": "Maintain positive energy and encourage collaboration",
+        "recommended_duration": "5-15 minutes",
+        "expected_benefits": "Strengthens positive emotions and builds classroom community",
+        "custom_adjustments": [
+            "Consider shorter activities due to tiredness"
+        ],
+        "additional_considerations": [],
+        "teacher_notes": "",
+        "reasoning": "Dominant emotion: HAPPY. Avg intensity: 1.00. Avg tiredness: 4.4. Trend: stable."
+    }
+}

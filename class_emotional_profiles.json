@@ -1,0 +1,4078 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-11-01T22:22:42.517969",
+    "total_classes_analyzed": 97,
+    "data_source": "studentCheckIn_cleaned.csv",
+    "analysis_type": "class_based_emotional_profiling"
+  },
+  "class_profiles": {
+    "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21": {
+      "class_id": "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21",
+      "class_name": "Class 2Q",
+      "total_sessions": 159,
+      "total_students": 36,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.75,
+        "emotion_distribution": {
+          "HAPPY": 2332,
+          "EXCITED": 1107,
+          "SAD": 59,
+          "ANXIOUS": 34,
+          "ANGRY": 23,
+          "SCARED": 10
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.35,
+        "chat_requests": 0,
+        "absence_rate": 0.016
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.794,
+        "earlier_avg_intensity": 0.706,
+        "volatility": 0.256
+      },
+      "last_session": "2025-03-07T04:15:51.243000+00:00"
+    },
+    "e8658613-e2e8-42a7-a159-fc38608f2d36": {
+      "class_id": "e8658613-e2e8-42a7-a159-fc38608f2d36",
+      "class_name": "Class 4A",
+      "total_sessions": 127,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.805,
+        "emotion_distribution": {
+          "HAPPY": 2206,
+          "EXCITED": 514,
+          "SAD": 28,
+          "ANXIOUS": 18,
+          "SCARED": 17,
+          "ANGRY": 15
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.64,
+        "chat_requests": 0,
+        "absence_rate": 0.062
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.806,
+        "earlier_avg_intensity": 0.803,
+        "volatility": 0.249
+      },
+      "last_session": "2025-03-07T04:42:20.367000+00:00"
+    },
+    "6c4176ed-7413-4fe1-b3a7-7347577e1bc3": {
+      "class_id": "6c4176ed-7413-4fe1-b3a7-7347577e1bc3",
+      "class_name": "Class 4G",
+      "total_sessions": 79,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.996,
+        "emotion_distribution": {
+          "HAPPY": 811,
+          "EXCITED": 434,
+          "ANGRY": 158,
+          "SCARED": 30,
+          "SAD": 21,
+          "ANXIOUS": 19
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY",
+          "ANGRY",
+          "ANXIOUS"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.02
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.992,
+        "volatility": 0.042
+      },
+      "last_session": "2025-03-07T03:55:26.963000+00:00"
+    },
+    "0049a21e-bbfb-438f-92ab-1f847fb8ba62": {
+      "class_id": "0049a21e-bbfb-438f-92ab-1f847fb8ba62",
+      "class_name": "Class 11T",
+      "total_sessions": 116,
+      "total_students": 43,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 1424,
+          "EXCITED": 423,
+          "ANXIOUS": 46,
+          "SAD": 21,
+          "ANGRY": 18,
+          "SCARED": 18
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.38,
+        "chat_requests": 0,
+        "absence_rate": 0.004
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.028
+      },
+      "last_session": "2025-03-07T02:59:30.152000+00:00"
+    },
+    "006ebdb6-35ab-417a-81fa-e570143e81dc": {
+      "class_id": "006ebdb6-35ab-417a-81fa-e570143e81dc",
+      "class_name": "Class 5Z",
+      "total_sessions": 119,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 2221,
+          "EXCITED": 630,
+          "ANXIOUS": 9,
+          "SAD": 9,
+          "SCARED": 6,
+          "ANGRY": 1
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.89,
+        "chat_requests": 0,
+        "absence_rate": 0.027
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.997,
+        "volatility": 0.028
+      },
+      "last_session": "2025-03-07T03:05:33.705000+00:00"
+    },
+    "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847": {
+      "class_id": "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847",
+      "class_name": "Class 3Y",
+      "total_sessions": 132,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.735,
+        "emotion_distribution": {
+          "HAPPY": 2944,
+          "EXCITED": 734,
+          "SAD": 24,
+          "ANXIOUS": 21,
+          "SCARED": 19,
+          "ANGRY": 2
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.62,
+        "chat_requests": 0,
+        "absence_rate": 0.061
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.729,
+        "earlier_avg_intensity": 0.74,
+        "volatility": 0.251
+      },
+      "last_session": "2025-03-07T02:29:30.484000+00:00"
+    },
+    "0eef8c82-18e2-476a-95f0-d2f36632e528": {
+      "class_id": "0eef8c82-18e2-476a-95f0-d2f36632e528",
+      "class_name": "Class 9W",
+      "total_sessions": 107,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1583,
+          "EXCITED": 988,
+          "SAD": 7,
+          "SCARED": 5,
+          "ANXIOUS": 2,
+          "ANGRY": 1
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.59,
+        "chat_requests": 0,
+        "absence_rate": 0.003
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.999,
+        "volatility": 0.009
+      },
+      "last_session": "2025-03-07T03:03:24.756000+00:00"
+    },
+    "06dbdc20-88ee-489b-9876-79ff1483e8fe": {
+      "class_id": "06dbdc20-88ee-489b-9876-79ff1483e8fe",
+      "class_name": "Class 1H",
+      "total_sessions": 118,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.655,
+        "emotion_distribution": {
+          "HAPPY": 1742,
+          "EXCITED": 656,
+          "SCARED": 189,
+          "SAD": 185,
+          "ANXIOUS": 167,
+          "ANGRY": 25
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "SCARED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.29,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.613,
+        "earlier_avg_intensity": 0.697,
+        "volatility": 0.278
+      },
+      "last_session": "2025-03-07T03:01:43.887000+00:00"
+    },
+    "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e": {
+      "class_id": "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e",
+      "class_name": "Class 3V",
+      "total_sessions": 105,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.861,
+        "emotion_distribution": {
+          "HAPPY": 1517,
+          "EXCITED": 175,
+          "SAD": 18,
+          "ANGRY": 14,
+          "ANXIOUS": 13,
+          "SCARED": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.75,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.885,
+        "earlier_avg_intensity": 0.838,
+        "volatility": 0.225
+      },
+      "last_session": "2025-03-07T03:12:49.729000+00:00"
+    },
+    "104d0a56-9b6d-41f6-8faa-b96a36f21952": {
+      "class_id": "104d0a56-9b6d-41f6-8faa-b96a36f21952",
+      "class_name": "Class 7J",
+      "total_sessions": 133,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.562,
+        "emotion_distribution": {
+          "HAPPY": 2302,
+          "EXCITED": 387,
+          "ANXIOUS": 131,
+          "SCARED": 109,
+          "SAD": 96,
+          "ANGRY": 41
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "ANGRY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.07,
+        "chat_requests": 0,
+        "absence_rate": 0.07
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.529,
+        "earlier_avg_intensity": 0.594,
+        "volatility": 0.255
+      },
+      "last_session": "2025-03-07T02:29:30.225000+00:00"
+    },
+    "1124587c-00fb-4489-8302-a7c3db4b7f2b": {
+      "class_id": "1124587c-00fb-4489-8302-a7c3db4b7f2b",
+      "class_name": "Class 8Q",
+      "total_sessions": 97,
+      "total_students": 30,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.997,
+        "emotion_distribution": {
+          "HAPPY": 1300,
+          "EXCITED": 748,
+          "SAD": 22,
+          "ANXIOUS": 21,
+          "ANGRY": 13,
+          "SCARED": 9
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.71,
+        "chat_requests": 0,
+        "absence_rate": 0.028
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.995,
+        "volatility": 0.033
+      },
+      "last_session": "2025-03-07T04:10:02.084000+00:00"
+    },
+    "14607736-aee5-40b2-a45a-54ddbd9c9f9b": {
+      "class_id": "14607736-aee5-40b2-a45a-54ddbd9c9f9b",
+      "class_name": "Class 11A",
+      "total_sessions": 126,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.652,
+        "emotion_distribution": {
+          "HAPPY": 2279,
+          "EXCITED": 534,
+          "ANXIOUS": 113,
+          "SCARED": 71,
+          "SAD": 67,
+          "ANGRY": 16
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.2,
+        "chat_requests": 0,
+        "absence_rate": 0.039
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.637,
+        "earlier_avg_intensity": 0.668,
+        "volatility": 0.266
+      },
+      "last_session": "2025-03-07T02:29:29.786000+00:00"
+    },
+    "15662d0c-3fa5-4f36-b239-4a63f999411e": {
+      "class_id": "15662d0c-3fa5-4f36-b239-4a63f999411e",
+      "class_name": "Class 5T",
+      "total_sessions": 143,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.767,
+        "emotion_distribution": {
+          "HAPPY": 2039,
+          "EXCITED": 745,
+          "SAD": 46,
+          "SCARED": 42,
+          "ANXIOUS": 26,
+          "ANGRY": 22
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.49,
+        "chat_requests": 0,
+        "absence_rate": 0.046
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.747,
+        "earlier_avg_intensity": 0.788,
+        "volatility": 0.242
+      },
+      "last_session": "2025-03-07T04:14:19.317000+00:00"
+    },
+    "16120bdf-8558-4a45-978e-e9a26dc90d06": {
+      "class_id": "16120bdf-8558-4a45-978e-e9a26dc90d06",
+      "class_name": "Class 8L",
+      "total_sessions": 87,
+      "total_students": 28,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 686,
+          "EXCITED": 386,
+          "ANGRY": 169,
+          "SAD": 90,
+          "ANXIOUS": 56,
+          "SCARED": 53
+        },
+        "recent_emotions": [
+          "SAD",
+          "HAPPY",
+          "SCARED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.22,
+        "chat_requests": 0,
+        "absence_rate": 0.249
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:43:54.360000+00:00"
+    },
+    "166d6a19-31bb-48e3-9309-78859552c412": {
+      "class_id": "166d6a19-31bb-48e3-9309-78859552c412",
+      "class_name": "Class 9W",
+      "total_sessions": 76,
+      "total_students": 38,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.93,
+        "emotion_distribution": {
+          "HAPPY": 1371,
+          "EXCITED": 695,
+          "SAD": 31,
+          "ANGRY": 23,
+          "SCARED": 16,
+          "ANXIOUS": 12
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.63,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.941,
+        "earlier_avg_intensity": 0.918,
+        "volatility": 0.169
+      },
+      "last_session": "2025-03-07T04:13:31.918000+00:00"
+    },
+    "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9": {
+      "class_id": "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9",
+      "class_name": "Class 12N",
+      "total_sessions": 145,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.711,
+        "emotion_distribution": {
+          "HAPPY": 2304,
+          "EXCITED": 631,
+          "SAD": 74,
+          "ANXIOUS": 38,
+          "SCARED": 29,
+          "ANGRY": 24
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "SCARED",
+          "ANXIOUS",
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.46,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.705,
+        "earlier_avg_intensity": 0.717,
+        "volatility": 0.273
+      },
+      "last_session": "2025-03-07T02:29:30.882000+00:00"
+    },
+    "083bc44a-d735-46f9-bc0a-d9b4d93efcbe": {
+      "class_id": "083bc44a-d735-46f9-bc0a-d9b4d93efcbe",
+      "class_name": "Class 8L",
+      "total_sessions": 153,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.64,
+        "emotion_distribution": {
+          "HAPPY": 1651,
+          "EXCITED": 216,
+          "SAD": 158,
+          "ANXIOUS": 75,
+          "SCARED": 51,
+          "ANGRY": 26
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 3.76,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.593,
+        "earlier_avg_intensity": 0.688,
+        "volatility": 0.277
+      },
+      "last_session": "2025-03-07T03:29:31.424000+00:00"
+    },
+    "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d": {
+      "class_id": "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d",
+      "class_name": "Class 1E",
+      "total_sessions": 121,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.838,
+        "emotion_distribution": {
+          "HAPPY": 1949,
+          "EXCITED": 616,
+          "SAD": 147,
+          "SCARED": 112,
+          "ANXIOUS": 91,
+          "ANGRY": 28
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.4,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.823,
+        "earlier_avg_intensity": 0.853,
+        "volatility": 0.244
+      },
+      "last_session": "2025-03-07T02:44:36.163000+00:00"
+    },
+    "1c44805b-ca90-4a15-a14c-05694389782f": {
+      "class_id": "1c44805b-ca90-4a15-a14c-05694389782f",
+      "class_name": "Class 5P",
+      "total_sessions": 119,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.857,
+        "emotion_distribution": {
+          "HAPPY": 1515,
+          "EXCITED": 1426,
+          "ANXIOUS": 67,
+          "SCARED": 23,
+          "ANGRY": 5,
+          "SAD": 4
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.67,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.88,
+        "earlier_avg_intensity": 0.834,
+        "volatility": 0.223
+      },
+      "last_session": "2025-03-07T04:08:01.096000+00:00"
+    },
+    "2816ccef-94a4-4d49-8892-e726a4eec97c": {
+      "class_id": "2816ccef-94a4-4d49-8892-e726a4eec97c",
+      "class_name": "Class 9Z",
+      "total_sessions": 126,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.999,
+        "emotion_distribution": {
+          "HAPPY": 1848,
+          "EXCITED": 1610,
+          "SCARED": 4,
+          "ANXIOUS": 3,
+          "ANGRY": 2,
+          "SAD": 1
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.68,
+        "chat_requests": 0,
+        "absence_rate": 0.093
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.998,
+        "volatility": 0.02
+      },
+      "last_session": "2025-03-07T02:59:30.388000+00:00"
+    },
+    "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b": {
+      "class_id": "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b",
+      "class_name": "Class 8L",
+      "total_sessions": 111,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.622,
+        "emotion_distribution": {
+          "HAPPY": 2085,
+          "EXCITED": 448,
+          "ANXIOUS": 105,
+          "SAD": 102,
+          "SCARED": 86,
+          "ANGRY": 9
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.42,
+        "chat_requests": 0,
+        "absence_rate": 0.063
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.605,
+        "earlier_avg_intensity": 0.638,
+        "volatility": 0.222
+      },
+      "last_session": "2025-03-07T03:06:22.505000+00:00"
+    },
+    "2b82403a-eda7-449d-a68a-bd9999bec02c": {
+      "class_id": "2b82403a-eda7-449d-a68a-bd9999bec02c",
+      "class_name": "Class 6N",
+      "total_sessions": 86,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.8,
+        "emotion_distribution": {
+          "HAPPY": 1402,
+          "EXCITED": 780,
+          "ANXIOUS": 15,
+          "SAD": 11,
+          "ANGRY": 5,
+          "SCARED": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "ANGRY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.65,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.793,
+        "earlier_avg_intensity": 0.806,
+        "volatility": 0.285
+      },
+      "last_session": "2025-03-07T04:17:15.063000+00:00"
+    },
+    "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37": {
+      "class_id": "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37",
+      "class_name": "Class 9P",
+      "total_sessions": 108,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.785,
+        "emotion_distribution": {
+          "HAPPY": 1812,
+          "EXCITED": 610,
+          "SCARED": 28,
+          "SAD": 26,
+          "ANXIOUS": 20,
+          "ANGRY": 7
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.53,
+        "chat_requests": 0,
+        "absence_rate": 0.03
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.829,
+        "earlier_avg_intensity": 0.741,
+        "volatility": 0.243
+      },
+      "last_session": "2025-03-07T03:18:54.049000+00:00"
+    },
+    "2f96a585-ba4c-4253-b5e3-351703bc26a7": {
+      "class_id": "2f96a585-ba4c-4253-b5e3-351703bc26a7",
+      "class_name": "Class 10Q",
+      "total_sessions": 104,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.82,
+        "emotion_distribution": {
+          "HAPPY": 1608,
+          "EXCITED": 203,
+          "SAD": 21,
+          "ANXIOUS": 13,
+          "ANGRY": 11,
+          "SCARED": 9
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.68,
+        "chat_requests": 0,
+        "absence_rate": 0.019
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.82,
+        "earlier_avg_intensity": 0.82,
+        "volatility": 0.233
+      },
+      "last_session": "2025-03-07T04:24:03.929000+00:00"
+    },
+    "299a0245-942a-4197-874e-186e70b45ae5": {
+      "class_id": "299a0245-942a-4197-874e-186e70b45ae5",
+      "class_name": "Class 1E",
+      "total_sessions": 158,
+      "total_students": 30,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.676,
+        "emotion_distribution": {
+          "HAPPY": 1490,
+          "EXCITED": 817,
+          "SAD": 228,
+          "SCARED": 145,
+          "ANXIOUS": 137,
+          "ANGRY": 75
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "HAPPY",
+          "ANXIOUS",
+          "EXCITED",
+          "ANGRY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.03,
+        "chat_requests": 0,
+        "absence_rate": 0.02
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.638,
+        "earlier_avg_intensity": 0.715,
+        "volatility": 0.28
+      },
+      "last_session": "2025-03-07T03:29:31.194000+00:00"
+    },
+    "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c": {
+      "class_id": "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c",
+      "class_name": "Class 9M",
+      "total_sessions": 123,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "EXCITED": 2867,
+          "HAPPY": 252,
+          "SCARED": 7,
+          "SAD": 2,
+          "ANGRY": 2,
+          "ANXIOUS": 1
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.84,
+        "chat_requests": 0,
+        "absence_rate": 0.114
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T02:45:50.752000+00:00"
+    },
+    "38662ddb-4a6e-4d82-8c7d-951af189970c": {
+      "class_id": "38662ddb-4a6e-4d82-8c7d-951af189970c",
+      "class_name": "Class 10M",
+      "total_sessions": 113,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.645,
+        "emotion_distribution": {
+          "HAPPY": 2168,
+          "EXCITED": 454,
+          "SAD": 30,
+          "SCARED": 21,
+          "ANXIOUS": 21,
+          "ANGRY": 5
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.33,
+        "chat_requests": 0,
+        "absence_rate": 0.036
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.608,
+        "earlier_avg_intensity": 0.682,
+        "volatility": 0.245
+      },
+      "last_session": "2025-03-07T02:29:30.929000+00:00"
+    },
+    "3a86dc44-1468-4f87-9b21-b338fa07ad24": {
+      "class_id": "3a86dc44-1468-4f87-9b21-b338fa07ad24",
+      "class_name": "Class 11N",
+      "total_sessions": 60,
+      "total_students": 45,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 625,
+          "EXCITED": 458,
+          "SAD": 82,
+          "ANXIOUS": 50,
+          "ANGRY": 47,
+          "SCARED": 33
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "ANGRY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.34,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:59:06.482000+00:00"
+    },
+    "39030cc0-d6f5-44bb-86ba-8638736855e0": {
+      "class_id": "39030cc0-d6f5-44bb-86ba-8638736855e0",
+      "class_name": "Class 8O",
+      "total_sessions": 127,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 2111,
+          "EXCITED": 882,
+          "ANXIOUS": 9,
+          "SAD": 7,
+          "SCARED": 5,
+          "ANGRY": 2
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.66,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.029
+      },
+      "last_session": "2025-03-07T02:37:00.382000+00:00"
+    },
+    "45d3b747-dbb6-41b3-89de-68892ad5bc94": {
+      "class_id": "45d3b747-dbb6-41b3-89de-68892ad5bc94",
+      "class_name": "Class 2J",
+      "total_sessions": 138,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.665,
+        "emotion_distribution": {
+          "HAPPY": 3222,
+          "EXCITED": 451,
+          "ANXIOUS": 8,
+          "SCARED": 5,
+          "SAD": 4,
+          "ANGRY": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.068
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.649,
+        "earlier_avg_intensity": 0.681,
+        "volatility": 0.251
+      },
+      "last_session": "2025-03-07T02:48:56.482000+00:00"
+    },
+    "482c7f18-cddd-4bdc-8247-92b5a4a7733e": {
+      "class_id": "482c7f18-cddd-4bdc-8247-92b5a4a7733e",
+      "class_name": "Class 2P",
+      "total_sessions": 119,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.674,
+        "emotion_distribution": {
+          "HAPPY": 1146,
+          "EXCITED": 301,
+          "ANXIOUS": 69,
+          "SAD": 62,
+          "SCARED": 43,
+          "ANGRY": 38
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.07,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.667,
+        "earlier_avg_intensity": 0.681,
+        "volatility": 0.281
+      },
+      "last_session": "2025-03-07T04:22:18.194000+00:00"
+    },
+    "18598790-9570-4f0d-9678-0aeab20c6bce": {
+      "class_id": "18598790-9570-4f0d-9678-0aeab20c6bce",
+      "class_name": "Class 12W",
+      "total_sessions": 107,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.87,
+        "emotion_distribution": {
+          "HAPPY": 1981,
+          "EXCITED": 707,
+          "ANXIOUS": 14,
+          "SAD": 12,
+          "SCARED": 5,
+          "ANGRY": 3
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.81,
+        "chat_requests": 0,
+        "absence_rate": 0.081
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.88,
+        "earlier_avg_intensity": 0.861,
+        "volatility": 0.209
+      },
+      "last_session": "2025-03-07T04:29:42.957000+00:00"
+    },
+    "104ac756-cd28-426b-b49b-a05f25d6edd9": {
+      "class_id": "104ac756-cd28-426b-b49b-a05f25d6edd9",
+      "class_name": "Class 7Z",
+      "total_sessions": 115,
+      "total_students": 30,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 1828,
+          "EXCITED": 1129,
+          "SAD": 10,
+          "ANGRY": 5,
+          "ANXIOUS": 5,
+          "SCARED": 5
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.62,
+        "chat_requests": 0,
+        "absence_rate": 0.094
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.028
+      },
+      "last_session": "2025-03-07T02:51:52.581000+00:00"
+    },
+    "4a0d0bf7-ace3-4649-8075-ff44d6f7a250": {
+      "class_id": "4a0d0bf7-ace3-4649-8075-ff44d6f7a250",
+      "class_name": "Class 5P",
+      "total_sessions": 80,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 1210,
+          "EXCITED": 786,
+          "SCARED": 22,
+          "ANGRY": 10,
+          "SAD": 9,
+          "ANXIOUS": 8
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.55,
+        "chat_requests": 0,
+        "absence_rate": 0.027
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.995,
+        "volatility": 0.032
+      },
+      "last_session": "2025-03-07T03:14:02.210000+00:00"
+    },
+    "48ea7071-6c7d-4eab-b527-bc1b5bd77434": {
+      "class_id": "48ea7071-6c7d-4eab-b527-bc1b5bd77434",
+      "class_name": "Class 7Z",
+      "total_sessions": 108,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "EXCITED": 1829,
+          "HAPPY": 1114,
+          "SCARED": 17,
+          "SAD": 11,
+          "ANXIOUS": 4,
+          "ANGRY": 1
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.64,
+        "chat_requests": 0,
+        "absence_rate": 0.004
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.03
+      },
+      "last_session": "2025-03-07T02:55:59.361000+00:00"
+    },
+    "58dfd3b5-d430-4bcf-9b5f-363e901a9590": {
+      "class_id": "58dfd3b5-d430-4bcf-9b5f-363e901a9590",
+      "class_name": "Class 10V",
+      "total_sessions": 72,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.873,
+        "emotion_distribution": {
+          "HAPPY": 1391,
+          "EXCITED": 246,
+          "SAD": 34,
+          "ANGRY": 28,
+          "ANXIOUS": 25,
+          "SCARED": 19
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.53,
+        "chat_requests": 0,
+        "absence_rate": 0.017
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.897,
+        "earlier_avg_intensity": 0.849,
+        "volatility": 0.22
+      },
+      "last_session": "2025-03-07T04:56:50.443000+00:00"
+    },
+    "4e8d4046-3a88-4089-90cf-1175200d5981": {
+      "class_id": "4e8d4046-3a88-4089-90cf-1175200d5981",
+      "class_name": "Class 3I",
+      "total_sessions": 119,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.801,
+        "emotion_distribution": {
+          "HAPPY": 2128,
+          "EXCITED": 975,
+          "ANXIOUS": 52,
+          "SAD": 38,
+          "ANGRY": 30,
+          "SCARED": 10
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.58,
+        "chat_requests": 0,
+        "absence_rate": 0.002
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.791,
+        "earlier_avg_intensity": 0.812,
+        "volatility": 0.264
+      },
+      "last_session": "2025-03-07T04:06:51.177000+00:00"
+    },
+    "602ef40c-1cc3-4940-80ca-7240f48121e8": {
+      "class_id": "602ef40c-1cc3-4940-80ca-7240f48121e8",
+      "class_name": "Class 9O",
+      "total_sessions": 128,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.822,
+        "emotion_distribution": {
+          "HAPPY": 2171,
+          "EXCITED": 442,
+          "ANXIOUS": 21,
+          "ANGRY": 12,
+          "SAD": 5,
+          "SCARED": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.59,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.826,
+        "earlier_avg_intensity": 0.818,
+        "volatility": 0.242
+      },
+      "last_session": "2025-03-07T04:20:56.919000+00:00"
+    },
+    "61988215-68b1-4c19-8e70-8ddbca8f5106": {
+      "class_id": "61988215-68b1-4c19-8e70-8ddbca8f5106",
+      "class_name": "Class 12L",
+      "total_sessions": 138,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.655,
+        "emotion_distribution": {
+          "HAPPY": 1076,
+          "EXCITED": 396,
+          "ANXIOUS": 302,
+          "ANGRY": 163,
+          "SAD": 157,
+          "SCARED": 102
+        },
+        "recent_emotions": [
+          "ANXIOUS",
+          "ANXIOUS",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "SAD",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 3.5,
+        "chat_requests": 0,
+        "absence_rate": 0.028
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.658,
+        "earlier_avg_intensity": 0.652,
+        "volatility": 0.284
+      },
+      "last_session": "2025-03-07T03:29:30.186000+00:00"
+    },
+    "632e2920-ce33-4f78-b971-cf2da4ca751d": {
+      "class_id": "632e2920-ce33-4f78-b971-cf2da4ca751d",
+      "class_name": "Class 7H",
+      "total_sessions": 113,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 2120,
+          "EXCITED": 605,
+          "ANXIOUS": 36,
+          "SAD": 30,
+          "SCARED": 27,
+          "ANGRY": 19
+        },
+        "recent_emotions": [
+          "SCARED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.63,
+        "chat_requests": 0,
+        "absence_rate": 0.002
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T02:59:30.067000+00:00"
+    },
+    "4ec7fd9b-ced4-401e-b526-e83bf096c1ca": {
+      "class_id": "4ec7fd9b-ced4-401e-b526-e83bf096c1ca",
+      "class_name": "Class 3V",
+      "total_sessions": 119,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.613,
+        "emotion_distribution": {
+          "HAPPY": 1919,
+          "EXCITED": 449,
+          "ANXIOUS": 172,
+          "SAD": 165,
+          "ANGRY": 63,
+          "SCARED": 58
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 3.94,
+        "chat_requests": 0,
+        "absence_rate": 0.051
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.546,
+        "earlier_avg_intensity": 0.681,
+        "volatility": 0.289
+      },
+      "last_session": "2025-03-07T03:59:59.095000+00:00"
+    },
+    "672fda93-4e49-45ae-a1e9-63baa4e8052e": {
+      "class_id": "672fda93-4e49-45ae-a1e9-63baa4e8052e",
+      "class_name": "Class 11G",
+      "total_sessions": 121,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.698,
+        "emotion_distribution": {
+          "HAPPY": 2230,
+          "EXCITED": 297,
+          "SAD": 12,
+          "ANGRY": 9,
+          "ANXIOUS": 8,
+          "SCARED": 7
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.38,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.68,
+        "earlier_avg_intensity": 0.717,
+        "volatility": 0.246
+      },
+      "last_session": "2025-03-07T03:59:30.048000+00:00"
+    },
+    "6887da6f-3ea6-4b8b-ac34-a2955c884a56": {
+      "class_id": "6887da6f-3ea6-4b8b-ac34-a2955c884a56",
+      "class_name": "Class 12O",
+      "total_sessions": 127,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.762,
+        "emotion_distribution": {
+          "HAPPY": 1946,
+          "EXCITED": 942,
+          "ANXIOUS": 77,
+          "SCARED": 68,
+          "ANGRY": 65,
+          "SAD": 59
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.24,
+        "chat_requests": 0,
+        "absence_rate": 0.019
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.746,
+        "earlier_avg_intensity": 0.777,
+        "volatility": 0.269
+      },
+      "last_session": "2025-03-07T04:14:11.738000+00:00"
+    },
+    "6a9c4ced-3a53-46b0-8a89-68556b63b5bd": {
+      "class_id": "6a9c4ced-3a53-46b0-8a89-68556b63b5bd",
+      "class_name": "Class 9V",
+      "total_sessions": 119,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.717,
+        "emotion_distribution": {
+          "HAPPY": 1821,
+          "EXCITED": 516,
+          "ANXIOUS": 55,
+          "SAD": 42,
+          "SCARED": 39,
+          "ANGRY": 6
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.37,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.715,
+        "earlier_avg_intensity": 0.718,
+        "volatility": 0.256
+      },
+      "last_session": "2025-03-07T03:17:18.289000+00:00"
+    },
+    "6f83c644-6230-47cd-b1d4-3da7085dcab5": {
+      "class_id": "6f83c644-6230-47cd-b1d4-3da7085dcab5",
+      "class_name": "Class 2L",
+      "total_sessions": 130,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.751,
+        "emotion_distribution": {
+          "HAPPY": 1636,
+          "EXCITED": 494,
+          "SCARED": 107,
+          "ANXIOUS": 51,
+          "SAD": 30,
+          "ANGRY": 19
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "ANGRY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.4,
+        "chat_requests": 0,
+        "absence_rate": 0.002
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.714,
+        "earlier_avg_intensity": 0.788,
+        "volatility": 0.29
+      },
+      "last_session": "2025-03-07T01:59:31.764000+00:00"
+    },
+    "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef": {
+      "class_id": "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef",
+      "class_name": "Class 2L",
+      "total_sessions": 150,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1864,
+          "EXCITED": 1764,
+          "SAD": 44,
+          "ANXIOUS": 26,
+          "SCARED": 17,
+          "ANGRY": 9
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.53,
+        "chat_requests": 0,
+        "absence_rate": 0.126
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:52:06.580000+00:00"
+    },
+    "774f466f-c890-4e87-ba32-9161c8134081": {
+      "class_id": "774f466f-c890-4e87-ba32-9161c8134081",
+      "class_name": "Class 6P",
+      "total_sessions": 107,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1555,
+          "EXCITED": 783,
+          "ANGRY": 134,
+          "ANXIOUS": 95,
+          "SCARED": 45,
+          "SAD": 43
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.31,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.999,
+        "volatility": 0.011
+      },
+      "last_session": "2025-03-07T04:13:42.758000+00:00"
+    },
+    "782db4dc-bbd2-4878-910f-1468cfb42bc8": {
+      "class_id": "782db4dc-bbd2-4878-910f-1468cfb42bc8",
+      "class_name": "Class 5Q",
+      "total_sessions": 104,
+      "total_students": 40,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.821,
+        "emotion_distribution": {
+          "HAPPY": 1759,
+          "EXCITED": 609,
+          "ANXIOUS": 17,
+          "SCARED": 16,
+          "SAD": 12,
+          "ANGRY": 5
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.61,
+        "chat_requests": 0,
+        "absence_rate": 0.083
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.832,
+        "earlier_avg_intensity": 0.811,
+        "volatility": 0.23
+      },
+      "last_session": "2025-03-07T03:00:37.433000+00:00"
+    },
+    "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61": {
+      "class_id": "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61",
+      "class_name": "Class 6G",
+      "total_sessions": 101,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.704,
+        "emotion_distribution": {
+          "HAPPY": 1991,
+          "EXCITED": 565,
+          "ANXIOUS": 71,
+          "ANGRY": 51,
+          "SAD": 29,
+          "SCARED": 20
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "ANGRY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.28,
+        "chat_requests": 0,
+        "absence_rate": 0.002
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.699,
+        "earlier_avg_intensity": 0.709,
+        "volatility": 0.288
+      },
+      "last_session": "2025-03-07T04:05:52.534000+00:00"
+    },
+    "79cca8b6-5326-48ca-9d7e-eaa935eaffbc": {
+      "class_id": "79cca8b6-5326-48ca-9d7e-eaa935eaffbc",
+      "class_name": "Class 10E",
+      "total_sessions": 101,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.796,
+        "emotion_distribution": {
+          "HAPPY": 1722,
+          "EXCITED": 483,
+          "SAD": 63,
+          "ANGRY": 52,
+          "ANXIOUS": 51,
+          "SCARED": 29
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.31,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.781,
+        "earlier_avg_intensity": 0.812,
+        "volatility": 0.269
+      },
+      "last_session": "2025-03-07T04:00:45.881000+00:00"
+    },
+    "7ef8e858-cf04-454b-b1ca-2216a27c2c67": {
+      "class_id": "7ef8e858-cf04-454b-b1ca-2216a27c2c67",
+      "class_name": "Class 1D",
+      "total_sessions": 139,
+      "total_students": 29,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.86,
+        "emotion_distribution": {
+          "HAPPY": 1737,
+          "EXCITED": 657,
+          "ANGRY": 304,
+          "SAD": 190,
+          "ANXIOUS": 135,
+          "SCARED": 103
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "HAPPY",
+          "EXCITED",
+          "SAD",
+          "HAPPY",
+          "SCARED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.107
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.859,
+        "earlier_avg_intensity": 0.861,
+        "volatility": 0.231
+      },
+      "last_session": "2025-03-07T03:48:24.345000+00:00"
+    },
+    "8361e50a-54a0-4b3f-89ab-998e658915a6": {
+      "class_id": "8361e50a-54a0-4b3f-89ab-998e658915a6",
+      "class_name": "Class 8M",
+      "total_sessions": 85,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "EXCITED": 1159,
+          "HAPPY": 867,
+          "SAD": 60,
+          "ANXIOUS": 44,
+          "SCARED": 28,
+          "ANGRY": 17
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.64,
+        "chat_requests": 0,
+        "absence_rate": 0.018
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:16:54.738000+00:00"
+    },
+    "85eb62af-55fe-433c-80c2-7534462cb32d": {
+      "class_id": "85eb62af-55fe-433c-80c2-7534462cb32d",
+      "class_name": "Class 9E",
+      "total_sessions": 109,
+      "total_students": 38,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.706,
+        "emotion_distribution": {
+          "HAPPY": 1899,
+          "EXCITED": 361,
+          "SCARED": 129,
+          "SAD": 114,
+          "ANXIOUS": 110,
+          "ANGRY": 53
+        },
+        "recent_emotions": [
+          "SAD",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.13,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.706,
+        "earlier_avg_intensity": 0.705,
+        "volatility": 0.292
+      },
+      "last_session": "2025-03-07T03:03:42.665000+00:00"
+    },
+    "864331ef-1928-472d-9dbc-4a900fe34279": {
+      "class_id": "864331ef-1928-472d-9dbc-4a900fe34279",
+      "class_name": "Class 5A",
+      "total_sessions": 129,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.706,
+        "emotion_distribution": {
+          "HAPPY": 2266,
+          "EXCITED": 842,
+          "ANXIOUS": 80,
+          "SAD": 37,
+          "SCARED": 30,
+          "ANGRY": 25
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.48,
+        "chat_requests": 0,
+        "absence_rate": 0.034
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.691,
+        "earlier_avg_intensity": 0.722,
+        "volatility": 0.292
+      },
+      "last_session": "2025-03-07T03:52:56.271000+00:00"
+    },
+    "8b8343af-06d2-4922-8f66-af0abb8c8d42": {
+      "class_id": "8b8343af-06d2-4922-8f66-af0abb8c8d42",
+      "class_name": "Class 3K",
+      "total_sessions": 89,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.875,
+        "emotion_distribution": {
+          "HAPPY": 1649,
+          "EXCITED": 346,
+          "ANXIOUS": 35,
+          "SCARED": 15,
+          "SAD": 13,
+          "ANGRY": 10
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SCARED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.61,
+        "chat_requests": 0,
+        "absence_rate": 0.005
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.871,
+        "earlier_avg_intensity": 0.879,
+        "volatility": 0.205
+      },
+      "last_session": "2025-03-07T04:29:29.641000+00:00"
+    },
+    "8ce511b5-e810-480c-bc7d-fa84e84a6580": {
+      "class_id": "8ce511b5-e810-480c-bc7d-fa84e84a6580",
+      "class_name": "Class 8M",
+      "total_sessions": 109,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.761,
+        "emotion_distribution": {
+          "HAPPY": 2377,
+          "EXCITED": 212,
+          "ANXIOUS": 54,
+          "SAD": 53,
+          "ANGRY": 15,
+          "SCARED": 15
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.43,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.746,
+        "earlier_avg_intensity": 0.776,
+        "volatility": 0.266
+      },
+      "last_session": "2025-03-07T04:47:28.501000+00:00"
+    },
+    "8e64ae85-5fd4-4179-be28-169c314a2359": {
+      "class_id": "8e64ae85-5fd4-4179-be28-169c314a2359",
+      "class_name": "Class 1K",
+      "total_sessions": 75,
+      "total_students": 30,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.999,
+        "emotion_distribution": {
+          "HAPPY": 1165,
+          "EXCITED": 378,
+          "ANXIOUS": 109,
+          "ANGRY": 64,
+          "SCARED": 34,
+          "SAD": 34
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.26,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.999,
+        "volatility": 0.018
+      },
+      "last_session": "2025-03-07T04:28:44.608000+00:00"
+    },
+    "908274ac-a1ae-42b3-ba07-9835de66dccf": {
+      "class_id": "908274ac-a1ae-42b3-ba07-9835de66dccf",
+      "class_name": "Class 6P",
+      "total_sessions": 80,
+      "total_students": 36,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1836,
+          "EXCITED": 175,
+          "ANGRY": 73,
+          "SAD": 25,
+          "SCARED": 17,
+          "ANXIOUS": 16
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.75,
+        "chat_requests": 0,
+        "absence_rate": 0.078
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:14:01.658000+00:00"
+    },
+    "910a01d8-4593-46be-b990-9c891d28c022": {
+      "class_id": "910a01d8-4593-46be-b990-9c891d28c022",
+      "class_name": "Class 7E",
+      "total_sessions": 60,
+      "total_students": 39,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 767,
+          "EXCITED": 418,
+          "SAD": 88,
+          "ANGRY": 74,
+          "ANXIOUS": 31,
+          "SCARED": 19
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "ANGRY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.31,
+        "chat_requests": 0,
+        "absence_rate": 0.085
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:11:30.023000+00:00"
+    },
+    "917e6e5e-bd54-4a71-aa24-5d7366f19c73": {
+      "class_id": "917e6e5e-bd54-4a71-aa24-5d7366f19c73",
+      "class_name": "Class 7O",
+      "total_sessions": 126,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.816,
+        "emotion_distribution": {
+          "HAPPY": 2513,
+          "EXCITED": 480,
+          "SCARED": 76,
+          "ANXIOUS": 51,
+          "SAD": 36,
+          "ANGRY": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.815,
+        "earlier_avg_intensity": 0.817,
+        "volatility": 0.236
+      },
+      "last_session": "2025-03-07T03:03:47.589000+00:00"
+    },
+    "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff": {
+      "class_id": "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff",
+      "class_name": "Class 11A",
+      "total_sessions": 126,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 1293,
+          "EXCITED": 1201,
+          "SAD": 275,
+          "ANGRY": 168,
+          "SCARED": 132,
+          "ANXIOUS": 103
+        },
+        "recent_emotions": [
+          "SCARED",
+          "HAPPY",
+          "ANGRY",
+          "ANGRY",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.13,
+        "chat_requests": 0,
+        "absence_rate": 0.086
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.03
+      },
+      "last_session": "2025-03-07T03:07:33.609000+00:00"
+    },
+    "97045756-e77b-4af0-a722-6fba627f5660": {
+      "class_id": "97045756-e77b-4af0-a722-6fba627f5660",
+      "class_name": "Class 2L",
+      "total_sessions": 122,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "EXCITED": 2419,
+          "HAPPY": 742,
+          "SCARED": 5,
+          "ANXIOUS": 3,
+          "SAD": 1
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.83,
+        "chat_requests": 0,
+        "absence_rate": 0.06
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.028
+      },
+      "last_session": "2025-03-07T03:04:34.016000+00:00"
+    },
+    "9bebf5b2-9e00-4896-b259-9d2c751f1c5e": {
+      "class_id": "9bebf5b2-9e00-4896-b259-9d2c751f1c5e",
+      "class_name": "Class 6K",
+      "total_sessions": 134,
+      "total_students": 37,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.841,
+        "emotion_distribution": {
+          "HAPPY": 2440,
+          "EXCITED": 919,
+          "SAD": 6,
+          "SCARED": 6,
+          "ANGRY": 6,
+          "ANXIOUS": 3
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "ANGRY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.79,
+        "chat_requests": 0,
+        "absence_rate": 0.002
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.868,
+        "earlier_avg_intensity": 0.814,
+        "volatility": 0.229
+      },
+      "last_session": "2025-03-07T02:49:08.206000+00:00"
+    },
+    "9e67b111-8b86-4d7f-b539-b07c16c15862": {
+      "class_id": "9e67b111-8b86-4d7f-b539-b07c16c15862",
+      "class_name": "Class 2T",
+      "total_sessions": 100,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.999,
+        "emotion_distribution": {
+          "HAPPY": 1777,
+          "EXCITED": 744,
+          "ANXIOUS": 11,
+          "SAD": 8,
+          "SCARED": 4
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.7,
+        "chat_requests": 0,
+        "absence_rate": 0.041
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.999,
+        "volatility": 0.017
+      },
+      "last_session": "2025-03-07T03:11:02.322000+00:00"
+    },
+    "78fb554b-32d9-4da7-b881-834ab10580c1": {
+      "class_id": "78fb554b-32d9-4da7-b881-834ab10580c1",
+      "class_name": "Class 2Q",
+      "total_sessions": 124,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.859,
+        "emotion_distribution": {
+          "HAPPY": 2036,
+          "EXCITED": 637,
+          "SCARED": 148,
+          "SAD": 88,
+          "ANXIOUS": 31,
+          "ANGRY": 10
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "SCARED",
+          "HAPPY",
+          "ANXIOUS",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.46,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.847,
+        "earlier_avg_intensity": 0.871,
+        "volatility": 0.235
+      },
+      "last_session": "2025-03-07T03:11:32.666000+00:00"
+    },
+    "a2cf13b8-e26b-4197-ac02-a53638177530": {
+      "class_id": "a2cf13b8-e26b-4197-ac02-a53638177530",
+      "class_name": "Class 1B",
+      "total_sessions": 115,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.879,
+        "emotion_distribution": {
+          "HAPPY": 1690,
+          "EXCITED": 1091,
+          "SCARED": 3,
+          "ANXIOUS": 2,
+          "ANGRY": 1,
+          "SAD": 1
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.86,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.861,
+        "earlier_avg_intensity": 0.897,
+        "volatility": 0.194
+      },
+      "last_session": "2025-03-07T02:59:29.772000+00:00"
+    },
+    "a6d9c68d-cf8d-4e58-8828-b97150b0d415": {
+      "class_id": "a6d9c68d-cf8d-4e58-8828-b97150b0d415",
+      "class_name": "Class 12J",
+      "total_sessions": 104,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.826,
+        "emotion_distribution": {
+          "HAPPY": 1676,
+          "EXCITED": 595,
+          "SAD": 22,
+          "ANGRY": 14,
+          "SCARED": 13,
+          "ANXIOUS": 13
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.59,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.856,
+        "earlier_avg_intensity": 0.795,
+        "volatility": 0.238
+      },
+      "last_session": "2025-03-07T04:30:07.823000+00:00"
+    },
+    "ad451a96-2a18-4299-a13b-4d3af86f445d": {
+      "class_id": "ad451a96-2a18-4299-a13b-4d3af86f445d",
+      "class_name": "Class 9T",
+      "total_sessions": 137,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.901,
+        "emotion_distribution": {
+          "HAPPY": 2846,
+          "EXCITED": 343,
+          "SAD": 92,
+          "ANXIOUS": 51,
+          "SCARED": 37,
+          "ANGRY": 23
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "ANGRY",
+          "HAPPY",
+          "ANGRY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.63,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.931,
+        "earlier_avg_intensity": 0.872,
+        "volatility": 0.198
+      },
+      "last_session": "2025-03-07T02:39:55.961000+00:00"
+    },
+    "aa1c50e8-eecd-48c0-81ff-d27401ca5a54": {
+      "class_id": "aa1c50e8-eecd-48c0-81ff-d27401ca5a54",
+      "class_name": "Class 1I",
+      "total_sessions": 77,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "EXCITED": 1084,
+          "HAPPY": 733,
+          "ANXIOUS": 25,
+          "SCARED": 15,
+          "ANGRY": 5,
+          "SAD": 3
+        },
+        "recent_emotions": [
+          "SAD",
+          "SCARED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.45,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:13:24.298000+00:00"
+    },
+    "b11781fb-7a23-4115-ba29-980139bedb1b": {
+      "class_id": "b11781fb-7a23-4115-ba29-980139bedb1b",
+      "class_name": "Class 1N",
+      "total_sessions": 115,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 0.993,
+        "emotion_distribution": {
+          "EXCITED": 2852,
+          "HAPPY": 246,
+          "SCARED": 8,
+          "SAD": 3,
+          "ANXIOUS": 2
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.95,
+        "chat_requests": 0,
+        "absence_rate": 0.044
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.987,
+        "volatility": 0.049
+      },
+      "last_session": "2025-03-07T02:44:38.342000+00:00"
+    },
+    "b1f213e8-5430-423a-b4a6-b761981234df": {
+      "class_id": "b1f213e8-5430-423a-b4a6-b761981234df",
+      "class_name": "Class 11Z",
+      "total_sessions": 137,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.657,
+        "emotion_distribution": {
+          "HAPPY": 2545,
+          "EXCITED": 573,
+          "ANXIOUS": 68,
+          "SAD": 48,
+          "SCARED": 42,
+          "ANGRY": 12
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "SCARED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.27,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.643,
+        "earlier_avg_intensity": 0.671,
+        "volatility": 0.272
+      },
+      "last_session": "2025-03-07T02:29:29.789000+00:00"
+    },
+    "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe": {
+      "class_id": "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe",
+      "class_name": "Class 10J",
+      "total_sessions": 124,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.865,
+        "emotion_distribution": {
+          "HAPPY": 3078,
+          "EXCITED": 480,
+          "SAD": 14,
+          "ANXIOUS": 11,
+          "SCARED": 3,
+          "ANGRY": 3
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.73,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.885,
+        "earlier_avg_intensity": 0.845,
+        "volatility": 0.221
+      },
+      "last_session": "2025-03-07T04:22:49.842000+00:00"
+    },
+    "b0ab0362-959c-4572-861f-e1042994cffd": {
+      "class_id": "b0ab0362-959c-4572-861f-e1042994cffd",
+      "class_name": "Class 5M",
+      "total_sessions": 130,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.996,
+        "emotion_distribution": {
+          "HAPPY": 1958,
+          "EXCITED": 1292,
+          "ANXIOUS": 18,
+          "SAD": 17,
+          "SCARED": 9,
+          "ANGRY": 5
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.5,
+        "chat_requests": 0,
+        "absence_rate": 0.099
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.992,
+        "volatility": 0.039
+      },
+      "last_session": "2025-03-07T03:15:28.162000+00:00"
+    },
+    "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd": {
+      "class_id": "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd",
+      "class_name": "Class 7H",
+      "total_sessions": 145,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "EXCITED": 1564,
+          "HAPPY": 1203,
+          "ANXIOUS": 84,
+          "ANGRY": 36,
+          "SAD": 31,
+          "SCARED": 17
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.54,
+        "chat_requests": 0,
+        "absence_rate": 0.083
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.032
+      },
+      "last_session": "2025-03-07T03:29:31.050000+00:00"
+    },
+    "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012": {
+      "class_id": "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012",
+      "class_name": "Class 12C",
+      "total_sessions": 115,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.84,
+        "emotion_distribution": {
+          "HAPPY": 2172,
+          "EXCITED": 551,
+          "SAD": 71,
+          "ANGRY": 63,
+          "ANXIOUS": 43,
+          "SCARED": 30
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.45,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.847,
+        "earlier_avg_intensity": 0.834,
+        "volatility": 0.248
+      },
+      "last_session": "2025-03-07T04:23:51.812000+00:00"
+    },
+    "bec2d3be-3c66-48bf-a92b-3cd4acc66280": {
+      "class_id": "bec2d3be-3c66-48bf-a92b-3cd4acc66280",
+      "class_name": "Class 6K",
+      "total_sessions": 118,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.838,
+        "emotion_distribution": {
+          "HAPPY": 1597,
+          "EXCITED": 529,
+          "SAD": 55,
+          "SCARED": 54,
+          "ANXIOUS": 42,
+          "ANGRY": 7
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.44,
+        "chat_requests": 0,
+        "absence_rate": 0.005
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.805,
+        "earlier_avg_intensity": 0.871,
+        "volatility": 0.231
+      },
+      "last_session": "2025-03-07T03:09:10.410000+00:00"
+    },
+    "bf03284a-263e-4aee-897e-bab1808d004d": {
+      "class_id": "bf03284a-263e-4aee-897e-bab1808d004d",
+      "class_name": "Class 5X",
+      "total_sessions": 117,
+      "total_students": 38,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.688,
+        "emotion_distribution": {
+          "HAPPY": 1581,
+          "EXCITED": 542,
+          "ANXIOUS": 39,
+          "SAD": 35,
+          "SCARED": 35,
+          "ANGRY": 25
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "ANXIOUS",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.26,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.652,
+        "earlier_avg_intensity": 0.724,
+        "volatility": 0.288
+      },
+      "last_session": "2025-03-07T03:00:22.099000+00:00"
+    },
+    "c3c673e0-45c5-4527-96b1-b587655ca6f2": {
+      "class_id": "c3c673e0-45c5-4527-96b1-b587655ca6f2",
+      "class_name": "Class 7I",
+      "total_sessions": 116,
+      "total_students": 73,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.826,
+        "emotion_distribution": {
+          "HAPPY": 1901,
+          "EXCITED": 1176,
+          "SAD": 13,
+          "SCARED": 12,
+          "ANXIOUS": 5,
+          "ANGRY": 4
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.64,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "improving",
+        "recent_avg_intensity": 0.855,
+        "earlier_avg_intensity": 0.797,
+        "volatility": 0.235
+      },
+      "last_session": "2025-03-07T03:00:24.366000+00:00"
+    },
+    "c540d4c4-af00-4d65-a4e0-232623751a49": {
+      "class_id": "c540d4c4-af00-4d65-a4e0-232623751a49",
+      "class_name": "Class 11M",
+      "total_sessions": 54,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 629,
+          "EXCITED": 364,
+          "SAD": 117,
+          "ANXIOUS": 52,
+          "ANGRY": 37,
+          "SCARED": 20
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 3.89,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.036
+      },
+      "last_session": "2025-03-07T04:29:15.849000+00:00"
+    },
+    "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152": {
+      "class_id": "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152",
+      "class_name": "Class 10S",
+      "total_sessions": 130,
+      "total_students": 38,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.772,
+        "emotion_distribution": {
+          "HAPPY": 2319,
+          "EXCITED": 994,
+          "SAD": 18,
+          "SCARED": 13,
+          "ANXIOUS": 8,
+          "ANGRY": 2
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.72,
+        "chat_requests": 0,
+        "absence_rate": 0.003
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.768,
+        "earlier_avg_intensity": 0.776,
+        "volatility": 0.252
+      },
+      "last_session": "2025-03-07T02:40:43.723000+00:00"
+    },
+    "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34": {
+      "class_id": "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34",
+      "class_name": "Class 6L",
+      "total_sessions": 88,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.994,
+        "emotion_distribution": {
+          "HAPPY": 994,
+          "EXCITED": 792,
+          "ANXIOUS": 40,
+          "SAD": 27,
+          "ANGRY": 24,
+          "SCARED": 16
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.989,
+        "volatility": 0.05
+      },
+      "last_session": "2025-03-07T04:46:26.835000+00:00"
+    },
+    "c5ab524e-2b91-43e9-a90d-ae53c95db989": {
+      "class_id": "c5ab524e-2b91-43e9-a90d-ae53c95db989",
+      "class_name": "Class 2L",
+      "total_sessions": 105,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.702,
+        "emotion_distribution": {
+          "HAPPY": 1042,
+          "EXCITED": 407,
+          "SAD": 113,
+          "ANXIOUS": 90,
+          "SCARED": 75,
+          "ANGRY": 66
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "SCARED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 3.95,
+        "chat_requests": 0,
+        "absence_rate": 0.008
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.679,
+        "earlier_avg_intensity": 0.724,
+        "volatility": 0.266
+      },
+      "last_session": "2025-03-07T03:59:30.953000+00:00"
+    },
+    "d2feacaf-6b98-465b-af91-b4e806261a35": {
+      "class_id": "d2feacaf-6b98-465b-af91-b4e806261a35",
+      "class_name": "Class 9V",
+      "total_sessions": 140,
+      "total_students": 33,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.795,
+        "emotion_distribution": {
+          "HAPPY": 1772,
+          "EXCITED": 1312,
+          "SAD": 89,
+          "SCARED": 85,
+          "ANXIOUS": 67,
+          "ANGRY": 20
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "EXCITED",
+          "SAD",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "SAD"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.49,
+        "chat_requests": 0,
+        "absence_rate": 0.052
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.784,
+        "earlier_avg_intensity": 0.806,
+        "volatility": 0.273
+      },
+      "last_session": "2025-03-07T04:49:14.981000+00:00"
+    },
+    "d7bacc85-1cfe-430f-80d2-3843b150ab57": {
+      "class_id": "d7bacc85-1cfe-430f-80d2-3843b150ab57",
+      "class_name": "Class 6N",
+      "total_sessions": 119,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "EXCITED": 1727,
+          "HAPPY": 1423,
+          "SCARED": 11,
+          "ANXIOUS": 3,
+          "SAD": 1
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.53,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:10:23.770000+00:00"
+    },
+    "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c": {
+      "class_id": "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c",
+      "class_name": "Class 10K",
+      "total_sessions": 102,
+      "total_students": 39,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.874,
+        "emotion_distribution": {
+          "HAPPY": 1329,
+          "EXCITED": 962,
+          "ANXIOUS": 50,
+          "ANGRY": 49,
+          "SAD": 29,
+          "SCARED": 21
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.54,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.836,
+        "earlier_avg_intensity": 0.911,
+        "volatility": 0.222
+      },
+      "last_session": "2025-03-07T04:13:15.682000+00:00"
+    },
+    "d87e6036-ce2d-4236-bf74-f567f67dc8c1": {
+      "class_id": "d87e6036-ce2d-4236-bf74-f567f67dc8c1",
+      "class_name": "Class 4Q",
+      "total_sessions": 119,
+      "total_students": 36,
+      "emotions": {
+        "dominant_emotion": "EXCITED",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "EXCITED": 1303,
+          "HAPPY": 1137,
+          "SCARED": 14,
+          "ANXIOUS": 10,
+          "ANGRY": 7,
+          "SAD": 3
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.53,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:39:08.125000+00:00"
+    },
+    "db031dc7-ee54-4b7a-888c-64d796f99e52": {
+      "class_id": "db031dc7-ee54-4b7a-888c-64d796f99e52",
+      "class_name": "Class 9M",
+      "total_sessions": 135,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1885,
+          "EXCITED": 1454,
+          "ANXIOUS": 19,
+          "SCARED": 19,
+          "SAD": 11,
+          "ANGRY": 10
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.62,
+        "chat_requests": 0,
+        "absence_rate": 0.101
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:37:22.143000+00:00"
+    },
+    "dccba97a-2981-490f-8156-3b1844049acb": {
+      "class_id": "dccba97a-2981-490f-8156-3b1844049acb",
+      "class_name": "Class 10S",
+      "total_sessions": 110,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.642,
+        "emotion_distribution": {
+          "HAPPY": 1479,
+          "EXCITED": 213,
+          "SAD": 116,
+          "ANXIOUS": 107,
+          "SCARED": 104,
+          "ANGRY": 38
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "SCARED",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.19,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "declining",
+        "recent_avg_intensity": 0.621,
+        "earlier_avg_intensity": 0.664,
+        "volatility": 0.323
+      },
+      "last_session": "2025-03-07T04:08:35.953000+00:00"
+    },
+    "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a": {
+      "class_id": "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a",
+      "class_name": "Class 10J",
+      "total_sessions": 122,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.794,
+        "emotion_distribution": {
+          "HAPPY": 2342,
+          "EXCITED": 617,
+          "ANXIOUS": 38,
+          "SAD": 18,
+          "SCARED": 12,
+          "ANGRY": 9
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.59,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.803,
+        "earlier_avg_intensity": 0.784,
+        "volatility": 0.253
+      },
+      "last_session": "2025-03-07T04:17:51.619000+00:00"
+    },
+    "decbe748-4470-4542-b113-376c00cd2483": {
+      "class_id": "decbe748-4470-4542-b113-376c00cd2483",
+      "class_name": "Class 12X",
+      "total_sessions": 102,
+      "total_students": 34,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.997,
+        "emotion_distribution": {
+          "HAPPY": 1594,
+          "EXCITED": 1140,
+          "ANXIOUS": 11,
+          "SCARED": 9,
+          "SAD": 9
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.59,
+        "chat_requests": 0,
+        "absence_rate": 0.081
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.994,
+        "volatility": 0.033
+      },
+      "last_session": "2025-03-07T02:59:30.137000+00:00"
+    },
+    "e2bcb306-f002-4feb-b7be-9d44d4cea520": {
+      "class_id": "e2bcb306-f002-4feb-b7be-9d44d4cea520",
+      "class_name": "Class 12L",
+      "total_sessions": 134,
+      "total_students": 32,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.845,
+        "emotion_distribution": {
+          "HAPPY": 2136,
+          "EXCITED": 586,
+          "SAD": 100,
+          "ANXIOUS": 82,
+          "SCARED": 56,
+          "ANGRY": 39
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SAD"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.46,
+        "chat_requests": 0,
+        "absence_rate": 0.067
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 0.846,
+        "earlier_avg_intensity": 0.843,
+        "volatility": 0.247
+      },
+      "last_session": "2025-03-07T04:17:23.206000+00:00"
+    },
+    "e576f060-28d0-4506-8c22-a2b9afcb06ee": {
+      "class_id": "e576f060-28d0-4506-8c22-a2b9afcb06ee",
+      "class_name": "Class 7O",
+      "total_sessions": 72,
+      "total_students": 37,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1143,
+          "EXCITED": 246,
+          "ANGRY": 55,
+          "SAD": 44,
+          "SCARED": 24,
+          "ANXIOUS": 23
+        },
+        "recent_emotions": [
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "ANGRY",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.46,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:14:45.541000+00:00"
+    },
+    "e822bd46-e4f2-4310-95f7-de1ad4a01c24": {
+      "class_id": "e822bd46-e4f2-4310-95f7-de1ad4a01c24",
+      "class_name": "Class 10G",
+      "total_sessions": 112,
+      "total_students": 46,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1040,
+          "EXCITED": 930,
+          "SAD": 57,
+          "ANXIOUS": 46,
+          "ANGRY": 21,
+          "SCARED": 19
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "SAD",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.51,
+        "chat_requests": 0,
+        "absence_rate": 0.001
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:17:59.465000+00:00"
+    },
+    "e8d96f86-ebf3-4055-bb2f-865012e9c090": {
+      "class_id": "e8d96f86-ebf3-4055-bb2f-865012e9c090",
+      "class_name": "Class 3X",
+      "total_sessions": 126,
+      "total_students": 31,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 2215,
+          "EXCITED": 1186,
+          "SAD": 3,
+          "ANXIOUS": 1,
+          "ANGRY": 1
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.62,
+        "chat_requests": 0,
+        "absence_rate": 0.083
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T02:57:16.565000+00:00"
+    },
+    "ef9bea77-fddb-490d-a2d0-e1cb7cf76622": {
+      "class_id": "ef9bea77-fddb-490d-a2d0-e1cb7cf76622",
+      "class_name": "Class 1D",
+      "total_sessions": 91,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 0.998,
+        "emotion_distribution": {
+          "HAPPY": 1141,
+          "EXCITED": 910,
+          "SAD": 26,
+          "ANXIOUS": 11,
+          "SCARED": 8,
+          "ANGRY": 2
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.56,
+        "chat_requests": 0,
+        "absence_rate": 0.007
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 0.996,
+        "volatility": 0.031
+      },
+      "last_session": "2025-03-07T03:05:13.149000+00:00"
+    },
+    "f6111951-4eb1-4da9-b4bb-02eee64ac2c2": {
+      "class_id": "f6111951-4eb1-4da9-b4bb-02eee64ac2c2",
+      "class_name": "Class 4X",
+      "total_sessions": 89,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1056,
+          "EXCITED": 499,
+          "SAD": 31,
+          "ANGRY": 27,
+          "ANXIOUS": 20,
+          "SCARED": 8
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "ANXIOUS",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "ANGRY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.62,
+        "chat_requests": 0,
+        "absence_rate": 0.0
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T04:21:23.451000+00:00"
+    },
+    "f74856c3-b0f2-4864-98b3-b6efb95134a9": {
+      "class_id": "f74856c3-b0f2-4864-98b3-b6efb95134a9",
+      "class_name": "Class 7Z",
+      "total_sessions": 147,
+      "total_students": 35,
+      "emotions": {
+        "dominant_emotion": "HAPPY",
+        "avg_intensity": 1.0,
+        "emotion_distribution": {
+          "HAPPY": 1592,
+          "EXCITED": 1580,
+          "SAD": 115,
+          "ANXIOUS": 81,
+          "SCARED": 66,
+          "ANGRY": 47
+        },
+        "recent_emotions": [
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "EXCITED",
+          "EXCITED",
+          "HAPPY",
+          "HAPPY",
+          "EXCITED"
+        ]
+      },
+      "wellness_indicators": {
+        "avg_tiredness": 4.36,
+        "chat_requests": 0,
+        "absence_rate": 0.017
+      },
+      "trend_analysis": {
+        "trend": "stable",
+        "recent_avg_intensity": 1.0,
+        "earlier_avg_intensity": 1.0,
+        "volatility": 0.0
+      },
+      "last_session": "2025-03-07T03:52:08.886000+00:00"
+    }
+  }
+}
