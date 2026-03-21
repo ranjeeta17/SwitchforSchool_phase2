@@ -37,7 +37,7 @@ def run_baseline_test():
     """
     try:
         # 1. Load your local CSV file
-        df = pd.read_csv('studentCheckIn_cleaned.csv')
+        df = pd.read_csv('studentCheckInDateTime.csv')
         
         # 2. Initialize the builder module you wrote
         builder = StudentBaselineBuilder(window_size=4)
@@ -66,3 +66,4 @@ def run_baseline_test():
 
 if __name__ == "__main__":
     run_baseline_test()
+    
