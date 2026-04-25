@@ -17,8 +17,8 @@ The persona generator simulates realistic, complex human behaviour. This allows 
     * **Linear:** A gradual, steady increase in pressure.
     * **Sigmoid:** A "tipping point" where a student is fine until a sudden, rapid descent into burnout.
     * **Sine Wave:** Cyclical stress (e.g., feeling worse on weekends or during midterms).
-    * **Step Function:** A sudden, permanent shift (e.g., after a specific negative life event).
-* **Why we use it:** This tests our model’s **velocity detection**. Can the model catch a "Sigmoid Burnout" faster than a "Linear Decline"?
+    * **Step Function:** A sudden, permanent shift (e.g., after a specific unpleasant life event).
+* **Why we use it:** This tests our model's **velocity detection**. Can the model catch a "Sigmoid Burnout" faster than a "Linear Decline"?
 
 
 
@@ -33,6 +33,6 @@ The persona generator simulates realistic, complex human behaviour. This allows 
 
 ## 4. Cross-Feature Correlation 
 **The Concept:** Symptoms of distress rarely happen in isolation. If a student is highly stressed, they are likely tired and not eating well.
-* **How it works:** We use a hidden **Latent Stress** variable. As this variable rises (driven by the Temporal Modifier), it automatically pulls the probabilities of negative features up. 
-    * **High Stress** $\rightarrow$ Higher chance of `SAD` + Higher chance of `TIRED` + Higher chance of `NOT EATING`.
+* **How it works:** We use a hidden **Latent Stress** variable. As this variable rises (driven by the Temporal Modifier), it automatically pulls the probabilities of unpleasant features up. 
+    * **High Stress** → Higher chance of `SAD` + Higher chance of `TIRED` + Higher chance of `NOT EATING`.
 * **Why we use it:** This tests for **"Masked Risk."** If a student reports being `HAPPY` but their physical indicators (Eating/Tiredness) are crashing, can our risk engine still identify them as "At Risk"?

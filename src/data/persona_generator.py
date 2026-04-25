@@ -37,13 +37,13 @@ class CorrelationEngine:
         # Stress level is 0.0 (Chill) to 1.0 (Crisis)
         modulated = base_weights.copy()
         
-        # Logic: If high stress, boost negative outcomes
+        # Logic: If high stress, boost unpleasant outcomes
         if feature_type == 'Emotion':
-            negatives = ['SAD', 'ANGRY', 'ANXIOUS']
-            positives = ['HAPPY', 'EXCITED']
+            unpleasant = ['SAD', 'ANGRY', 'ANXIOUS']
+            pleasant = ['HAPPY', 'EXCITED']
             for k in modulated:
-                if k in negatives: modulated[k] *= (1 + stress_level)
-                if k in positives: modulated[k] *= (1 - stress_level)
+                if k in unpleasant: modulated[k] *= (1 + stress_level)
+                if k in pleasant: modulated[k] *= (1 - stress_level)
         
         elif feature_type == 'Tiredness':
             # Higher stress = Higher tiredness weights
