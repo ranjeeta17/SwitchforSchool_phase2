@@ -25,8 +25,8 @@ EMOTION_LABEL_MAP = {
     "confused": "CONFUSED",
 }
 
-NEGATIVE_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
-POSITIVE_EMOTIONS = {"HAPPY", "EXCITED", "CALM"}
+UNPLEASANT_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
+POSITIVE_EMOTIONS   = {"HAPPY", "EXCITED", "CALM"}
 
 
 def clean_checkins(df: pd.DataFrame) -> pd.DataFrame:
@@ -63,9 +63,11 @@ def clean_checkins(df: pd.DataFrame) -> pd.DataFrame:
             .fillna("UNKNOWN")
         )
 
-    # 4. Clip intensity
+    # 4. Clip intensity (coerce strings/undefined to NaN first, then clip)
     if "Emotion Intensity Percentage" in df.columns:
-        df["Emotion Intensity Percentage"] = df["Emotion Intensity Percentage"].clip(0, 1)
+        df["Emotion Intensity Percentage"] = pd.to_numeric(
+            df["Emotion Intensity Percentage"], errors="coerce"
+        ).clip(0, 1)
 
     # 5. Clip tiredness
     if "Tiredness" in df.columns:
@@ -90,18 +92,27 @@ def merge_datasets(
     """
     print("[Preprocessor] Merging datasets ...")
 
-    merged = checkins.merge(sessions, on="Session ID", how="left")
+    # checkins → sessions: both use "Check In Session ID"
+    merged = checkins.merge(sessions, on="Check In Session ID", how="left")
+    # merged → classes: both use "Class ID"
     merged = merged.merge(classes, on="Class ID", how="left")
-    merged = merged.merge(students, on="Student ID", how="left")
+    # merged → students: checkins have "Student ID", students table uses "ID"
+    merged = merged.merge(students, left_on="Student ID", right_on="ID", how="left")
+
+    # Normalise column names so all downstream modules use consistent keys
+    merged = merged.rename(columns={
+        "Opened Date Time": "Created At",    # sessions timestamp → expected key
+        "Request For Chat": "Chat Requested", # raw column → expected key
+    })
 
     print(f"[Preprocessor] Complete relationship table: {merged.shape}")
     return merged
 
 
-def flag_negative_emotion(df: pd.DataFrame) -> pd.DataFrame:
-    """Add a boolean column `is_negative` for distress-focused analysis."""
+def flag_unpleasant_emotion(df: pd.DataFrame) -> pd.DataFrame:
+    """Add a boolean column `is_unpleasant` for distress-focused analysis."""
     df = df.copy()
-    df["is_negative"] = df["Emotion"].isin(NEGATIVE_EMOTIONS)
+    df["is_unpleasant"] = df["Emotion"].isin(UNPLEASANT_EMOTIONS)
     return df
 
 

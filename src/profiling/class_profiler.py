@@ -31,7 +31,7 @@ def create_class_profile(class_id: str, class_data: pd.DataFrame) -> Dict[str, A
         emotions, wellness_indicators, trend_analysis, last_session
     """
     class_name = class_data["Class Name"].iloc[0] if "Class Name" in class_data.columns else f"Class_{class_id[:8]}"
-    total_sessions = class_data["Session ID"].nunique()
+    total_sessions = class_data["Check In Session ID"].nunique()
     total_students = class_data["Student ID"].nunique()
 
     # ── Emotion distribution ──────────────────────────────────────────────
@@ -48,9 +48,12 @@ def create_class_profile(class_id: str, class_data: pd.DataFrame) -> Dict[str, A
     ) if "Created At" in class_data.columns else []
 
     # ── Wellness indicators ───────────────────────────────────────────────
-    avg_tiredness = float(class_data["Tiredness"].mean()) if "Tiredness" in class_data.columns else 3.0
-    chat_requests = int(class_data["Chat Requested"].sum()) if "Chat Requested" in class_data.columns else 0
-    absence_rate  = float(1 - class_data["Student ID"].nunique() / max(total_sessions, 1))
+    avg_tiredness = float(pd.to_numeric(class_data["Tiredness"], errors="coerce").mean()) if "Tiredness" in class_data.columns else 3.0
+    chat_requests = int(class_data["Chat Requested"].astype(str).str.upper().eq("TRUE").sum()) if "Chat Requested" in class_data.columns else 0
+    # Correct absence_rate: proportion of check-in rows flagged as absent
+    absence_rate = float(
+        class_data["Absencce"].astype(str).str.upper().eq("TRUE").sum() / max(len(class_data), 1)
+    ) if "Absencce" in class_data.columns else 0.0
 
     # ── Trend analysis (recent vs earlier intensity) ──────────────────────
     trend_info = _compute_trend(class_data)

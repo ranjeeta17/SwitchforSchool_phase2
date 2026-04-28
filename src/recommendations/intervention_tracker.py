@@ -18,7 +18,7 @@ from pathlib import Path
 
 
 LOG_PATH = Path(__file__).resolve().parents[3] / "outputs" / "intervention_log.json"
-NEGATIVE_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
+UNPLEASANT_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
 
 
 def _load_log() -> List[Dict]:
@@ -97,11 +97,11 @@ def record_outcome(
             entry["recorded_at"]     = str(datetime.now())
 
             # Determine outcome
-            was_negative_before = entry["emotion_before"] in NEGATIVE_EMOTIONS
-            is_negative_after   = emotion_after in NEGATIVE_EMOTIONS
-            if was_negative_before and not is_negative_after:
+            was_unpleasant_before = entry["emotion_before"] in UNPLEASANT_EMOTIONS
+            is_unpleasant_after   = emotion_after in UNPLEASANT_EMOTIONS
+            if was_unpleasant_before and not is_unpleasant_after:
                 entry["outcome"] = "improved"
-            elif was_negative_before and is_negative_after and intensity_after < entry["intensity_before"]:
+            elif was_unpleasant_before and is_unpleasant_after and intensity_after < entry["intensity_before"]:
                 entry["outcome"] = "improved"
             elif intensity_after < entry["intensity_before"] - 0.1:
                 entry["outcome"] = "improved"

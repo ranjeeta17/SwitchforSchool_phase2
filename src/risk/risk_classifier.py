@@ -12,64 +12,84 @@ Project : IFN735 – AI-Powered Emotional Intelligence Support
 from typing import Dict, Any, List
 
 # ── Thresholds (school-tunable) ────────────────────────────────────────────
-HIGH_RISK_INTENSITY_THRESHOLD  = 0.7    # avg intensity above this → distress signal
-HIGH_RISK_TIREDNESS_THRESHOLD  = 4.0    # avg tiredness above this (scale 1–5)
-HIGH_RISK_NEGATIVE_RATIO       = 0.4    # >40 % check-ins are negative
-HIGH_RISK_ABSENCE_RATE         = 0.3    # >30 % sessions missed
+# HIGH intensity of an UNPLEASANT emotion = dysregulation (risk).
+# LOW intensity = regulation (calm/peace) — NOT a risk signal.
+HIGH_RISK_UNPLEASANT_INTENSITY = 0.6    # avg intensity >= this WITH unpleasant dominant = dysregulation
+HIGH_RISK_TIREDNESS_THRESHOLD  = 4.5    # avg tiredness above this (scale 1–5)
+HIGH_RISK_UNPLEASANT_RATIO     = 0.4    # >40 % check-ins are unpleasant emotions
+HIGH_RISK_ABSENCE_RATE         = 0.15   # >15 % absence rate
 
-MEDIUM_RISK_INTENSITY_THRESHOLD = 0.5
-MEDIUM_RISK_TIREDNESS_THRESHOLD  = 3.0
-MEDIUM_RISK_NEGATIVE_RATIO       = 0.2
-MEDIUM_RISK_ABSENCE_RATE         = 0.15
+MEDIUM_RISK_TIREDNESS_THRESHOLD  = 3.5
+MEDIUM_RISK_UNPLEASANT_RATIO     = 0.2
+MEDIUM_RISK_ABSENCE_RATE         = 0.05
 
-NEGATIVE_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
-DECLINING_TRENDS  = {"declining", "worsening"}
+UNPLEASANT_EMOTIONS = {"SAD", "ANXIOUS", "ANGRY", "SCARED"}
+DECLINING_TRENDS    = {"declining", "worsening"}
 
 
 def classify_student_risk(profile: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Apply Phase 1 rule-based risk classification to a student profile.
+    Apply rule-based risk classification to a student profile.
 
-    Rules (in order of priority):
-    ──────────────────────────────
-    HIGH Risk:   low avg mood AND (high tiredness OR high negative ratio OR high absence)
-    MEDIUM Risk: occasional negative emotions OR mild fatigue/disengagement
-    LOW Risk:    consistent positive emotions and steady energy
+    Score components:
+    ──────────────────────────────────────────────────────────────
+    +20  Dominant emotion is unpleasant
+    +25  High intensity unpleasant (dysregulation signal)
+    +20  High tiredness (>= 4.5)
+    +20  High unpleasant ratio (>= 40%)
+    +15  High absence rate (>= 15%)
+    +15  Linear trend is worsening/declining
+    +10  7-day longitudinal trend is worsening
+    +10–20 Compound flag rate (2+ risk flags co-occurring)
+    +8–15  Slow bounce-back after dysregulation
+    +5–15  Chat support requests
+
+    Thresholds: HIGH >= 50, MEDIUM >= 25, LOW < 25
 
     Returns
     -------
-    dict: { risk_level, risk_score (0–100), risk_factors, recommendations }
+    dict: { risk_level, risk_score (0–100), risk_factors }
     """
     emotions   = profile.get("emotions", {})
     wellness   = profile.get("wellness_indicators", {})
     trend      = profile.get("trend_analysis", {})
+    resilience = profile.get("resilience", {})
+    dysr_flags = profile.get("dysregulation_flags", {})
 
-    avg_intensity    = emotions.get("avg_intensity", 0.5)
-    negative_ratio   = emotions.get("negative_ratio", 0.0)
-    dominant_emotion = emotions.get("dominant_emotion", "HAPPY")
-    avg_tiredness    = wellness.get("avg_tiredness", 3.0)
-    absence_rate     = wellness.get("absence_rate", 0.0)
-    trend_direction  = trend.get("trend", "stable")
+    avg_intensity        = emotions.get("avg_intensity", 0.5)
+    unpleasant_ratio     = emotions.get("unpleasant_ratio", 0.0)
+    dominant_emotion     = emotions.get("dominant_emotion", "HAPPY")
+    avg_tiredness        = wellness.get("avg_tiredness", 3.0)
+    absence_rate         = wellness.get("absence_rate", 0.0)
+    chat_requests        = wellness.get("chat_requests", 0)
+    trend_direction      = trend.get("trend", "stable")
+    longitudinal         = trend.get("longitudinal_direction", "insufficient_data")
+    bounce_back          = resilience.get("bounce_back_avg_checkins")
+    compound_rate        = dysr_flags.get("compound_flag_rate", 0.0)
 
     risk_score   = 0
     risk_factors: List[str] = []
 
     # ── Score accumulation ─────────────────────────────────────────────────
-    if dominant_emotion in NEGATIVE_EMOTIONS:
-        risk_score += 30
-        risk_factors.append(f"Dominant emotion is negative ({dominant_emotion})")
 
-    if avg_intensity > HIGH_RISK_INTENSITY_THRESHOLD:
+    if dominant_emotion in UNPLEASANT_EMOTIONS:
         risk_score += 20
-        risk_factors.append(f"High avg emotion intensity ({avg_intensity:.2f})")
+        risk_factors.append(f"Dominant emotion is unpleasant ({dominant_emotion})")
+
+    # Primary dysregulation signal: HIGH intensity + unpleasant dominant
+    if dominant_emotion in UNPLEASANT_EMOTIONS and avg_intensity >= HIGH_RISK_UNPLEASANT_INTENSITY:
+        risk_score += 25
+        risk_factors.append(
+            f"High intensity unpleasant emotion ({dominant_emotion} at {avg_intensity:.2f}) — dysregulation signal"
+        )
 
     if avg_tiredness >= HIGH_RISK_TIREDNESS_THRESHOLD:
         risk_score += 20
         risk_factors.append(f"High tiredness level ({avg_tiredness:.1f}/5)")
 
-    if negative_ratio >= HIGH_RISK_NEGATIVE_RATIO:
+    if unpleasant_ratio >= HIGH_RISK_UNPLEASANT_RATIO:
         risk_score += 20
-        risk_factors.append(f"High proportion of negative check-ins ({negative_ratio:.0%})")
+        risk_factors.append(f"High proportion of unpleasant check-ins ({unpleasant_ratio:.0%})")
 
     if absence_rate >= HIGH_RISK_ABSENCE_RATE:
         risk_score += 15
@@ -78,6 +98,31 @@ def classify_student_risk(profile: Dict[str, Any]) -> Dict[str, Any]:
     if trend_direction in DECLINING_TRENDS:
         risk_score += 15
         risk_factors.append(f"Emotional trend is {trend_direction}")
+
+    # 7-day longitudinal direction (recent window — separate from overall slope)
+    if longitudinal == "worsening":
+        risk_score += 10
+        risk_factors.append("7-day rolling trend is worsening")
+
+    # Compound flag co-occurrence: multiple stressors in the same session
+    if compound_rate >= 0.10:
+        risk_score += 20
+        risk_factors.append(f"High compound dysregulation rate ({compound_rate:.0%} of sessions have 2+ risk flags)")
+    elif compound_rate >= 0.05:
+        risk_score += 10
+        risk_factors.append(f"Moderate compound dysregulation rate ({compound_rate:.0%} of sessions)")
+
+    # Bounce-back rate: slow recovery = low resilience
+    if bounce_back is not None and bounce_back >= 5:
+        risk_score += 15
+        risk_factors.append(f"Slow emotional recovery after dysregulation (avg {bounce_back:.1f} check-ins to recover)")
+    elif bounce_back is not None and bounce_back >= 3:
+        risk_score += 8
+        risk_factors.append(f"Moderate emotional recovery speed (avg {bounce_back:.1f} check-ins)")
+
+    if chat_requests > 0:
+        risk_score += min(chat_requests * 5, 15)
+        risk_factors.append(f"Student requested {chat_requests} wellbeing chat(s)")
 
     # ── Classification ─────────────────────────────────────────────────────
     if risk_score >= 50:

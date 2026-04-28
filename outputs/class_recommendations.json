@@ -1,0 +1,1636 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2026-04-29T05:25:09.342338",
+    "total_recommendations": 100,
+    "high_priority_count": 1,
+    "medium_priority_count": 64,
+    "low_priority_count": 35,
+    "author": "@Ranjeeta"
+  },
+  "teacher_dashboard": {
+    "overview": {
+      "total_classes": 100,
+      "high_priority": 1,
+      "medium_priority": 64,
+      "low_priority": 35
+    },
+    "priority_breakdown": {
+      "HIGH": 1,
+      "MEDIUM": 64,
+      "LOW": 35
+    },
+    "emotional_breakdown": {
+      "HAPPY": 91,
+      "EXCITED": 9
+    },
+    "high_priority_list": [
+      {
+        "class_id": "16120bdf-8558-4a45-978e-e9a26dc90d06",
+        "class_name": "Class 8L",
+        "emotional_state": "HAPPY"
+      }
+    ]
+  },
+  "class_recommendations": {
+    "0049a21e-bbfb-438f-92ab-1f847fb8ba62": {
+      "class_id": "0049a21e-bbfb-438f-92ab-1f847fb8ba62",
+      "class_name": "Class 11T",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "006ebdb6-35ab-417a-81fa-e570143e81dc": {
+      "class_id": "006ebdb6-35ab-417a-81fa-e570143e81dc",
+      "class_name": "Class 5Z",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.9/5"
+    },
+    "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e": {
+      "class_id": "015ea2d7-3cb0-493c-853f-1a0aba1b5c9e",
+      "class_name": "Class 3V",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 86%). Trend: stable. Avg tiredness: 4.8/5"
+    },
+    "06dbdc20-88ee-489b-9876-79ff1483e8fe": {
+      "class_id": "06dbdc20-88ee-489b-9876-79ff1483e8fe",
+      "class_name": "Class 1H",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 66%). Trend: declining. Avg tiredness: 4.3/5"
+    },
+    "083bc44a-d735-46f9-bc0a-d9b4d93efcbe": {
+      "class_id": "083bc44a-d735-46f9-bc0a-d9b4d93efcbe",
+      "class_name": "Class 8L",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 64%). Trend: declining. Avg tiredness: 3.8/5"
+    },
+    "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847": {
+      "class_id": "0c1b57c5-5aa1-4fc3-89cb-fd2a86711847",
+      "class_name": "Class 3Y",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 74%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "0eef8c82-18e2-476a-95f0-d2f36632e528": {
+      "class_id": "0eef8c82-18e2-476a-95f0-d2f36632e528",
+      "class_name": "Class 9W",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9": {
+      "class_id": "0fbe480c-ebf8-4dfd-9f1b-f8086fb09cb9",
+      "class_name": "Class 12N",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 71%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "104ac756-cd28-426b-b49b-a05f25d6edd9": {
+      "class_id": "104ac756-cd28-426b-b49b-a05f25d6edd9",
+      "class_name": "Class 7Z",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "104d0a56-9b6d-41f6-8faa-b96a36f21952": {
+      "class_id": "104d0a56-9b6d-41f6-8faa-b96a36f21952",
+      "class_name": "Class 7J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 56%). Trend: declining. Avg tiredness: 4.1/5"
+    },
+    "1124587c-00fb-4489-8302-a7c3db4b7f2b": {
+      "class_id": "1124587c-00fb-4489-8302-a7c3db4b7f2b",
+      "class_name": "Class 8Q",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "14607736-aee5-40b2-a45a-54ddbd9c9f9b": {
+      "class_id": "14607736-aee5-40b2-a45a-54ddbd9c9f9b",
+      "class_name": "Class 11A",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 65%). Trend: stable. Avg tiredness: 4.2/5"
+    },
+    "15662d0c-3fa5-4f36-b239-4a63f999411e": {
+      "class_id": "15662d0c-3fa5-4f36-b239-4a63f999411e",
+      "class_name": "Class 5T",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 77%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "16120bdf-8558-4a45-978e-e9a26dc90d06": {
+      "class_id": "16120bdf-8558-4a45-978e-e9a26dc90d06",
+      "class_name": "Class 8L",
+      "priority_level": "HIGH",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.2/5. Notable absence rate: 25%"
+    },
+    "166d6a19-31bb-48e3-9309-78859552c412": {
+      "class_id": "166d6a19-31bb-48e3-9309-78859552c412",
+      "class_name": "Class 9W",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 93%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "18598790-9570-4f0d-9678-0aeab20c6bce": {
+      "class_id": "18598790-9570-4f0d-9678-0aeab20c6bce",
+      "class_name": "Class 12W",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 87%). Trend: stable. Avg tiredness: 4.8/5"
+    },
+    "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d": {
+      "class_id": "1bea78bd-81fd-47c3-b3d9-02c60ee7e63d",
+      "class_name": "Class 1E",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 84%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "1c44805b-ca90-4a15-a14c-05694389782f": {
+      "class_id": "1c44805b-ca90-4a15-a14c-05694389782f",
+      "class_name": "Class 5P",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 86%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b": {
+      "class_id": "24d9c33b-b0fb-4a0b-83fa-0ece8ccf352b",
+      "class_name": "Class 8L",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 62%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "2816ccef-94a4-4d49-8892-e726a4eec97c": {
+      "class_id": "2816ccef-94a4-4d49-8892-e726a4eec97c",
+      "class_name": "Class 9Z",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "299a0245-942a-4197-874e-186e70b45ae5": {
+      "class_id": "299a0245-942a-4197-874e-186e70b45ae5",
+      "class_name": "Class 1E",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 68%). Trend: declining. Avg tiredness: 4.0/5"
+    },
+    "2b82403a-eda7-449d-a68a-bd9999bec02c": {
+      "class_id": "2b82403a-eda7-449d-a68a-bd9999bec02c",
+      "class_name": "Class 6N",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 80%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37": {
+      "class_id": "2c2c67aa-fe45-4cb2-bf9a-7aecfe31df37",
+      "class_name": "Class 9P",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 78%). Trend: improving. Avg tiredness: 4.5/5"
+    },
+    "2f96a585-ba4c-4253-b5e3-351703bc26a7": {
+      "class_id": "2f96a585-ba4c-4253-b5e3-351703bc26a7",
+      "class_name": "Class 10Q",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 82%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c": {
+      "class_id": "3063e3d8-ad29-4cfe-b91a-7ad1be6bb84c",
+      "class_name": "Class 9M",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.8/5. Notable absence rate: 11%"
+    },
+    "38662ddb-4a6e-4d82-8c7d-951af189970c": {
+      "class_id": "38662ddb-4a6e-4d82-8c7d-951af189970c",
+      "class_name": "Class 10M",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 64%). Trend: declining. Avg tiredness: 4.3/5"
+    },
+    "39030cc0-d6f5-44bb-86ba-8638736855e0": {
+      "class_id": "39030cc0-d6f5-44bb-86ba-8638736855e0",
+      "class_name": "Class 8O",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "3a86dc44-1468-4f87-9b21-b338fa07ad24": {
+      "class_id": "3a86dc44-1468-4f87-9b21-b338fa07ad24",
+      "class_name": "Class 11N",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "45d3b747-dbb6-41b3-89de-68892ad5bc94": {
+      "class_id": "45d3b747-dbb6-41b3-89de-68892ad5bc94",
+      "class_name": "Class 2J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 66%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21": {
+      "class_id": "476f8ef0-5f55-4f4f-ba66-8bb42b5efd21",
+      "class_name": "Class 2Q",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 75%). Trend: improving. Avg tiredness: 4.3/5"
+    },
+    "482c7f18-cddd-4bdc-8247-92b5a4a7733e": {
+      "class_id": "482c7f18-cddd-4bdc-8247-92b5a4a7733e",
+      "class_name": "Class 2P",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 67%). Trend: stable. Avg tiredness: 4.1/5"
+    },
+    "48ea7071-6c7d-4eab-b527-bc1b5bd77434": {
+      "class_id": "48ea7071-6c7d-4eab-b527-bc1b5bd77434",
+      "class_name": "Class 7Z",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "4a0d0bf7-ace3-4649-8075-ff44d6f7a250": {
+      "class_id": "4a0d0bf7-ace3-4649-8075-ff44d6f7a250",
+      "class_name": "Class 5P",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "4e8d4046-3a88-4089-90cf-1175200d5981": {
+      "class_id": "4e8d4046-3a88-4089-90cf-1175200d5981",
+      "class_name": "Class 3I",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 80%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "4ec7fd9b-ced4-401e-b526-e83bf096c1ca": {
+      "class_id": "4ec7fd9b-ced4-401e-b526-e83bf096c1ca",
+      "class_name": "Class 3V",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 61%). Trend: declining. Avg tiredness: 3.9/5"
+    },
+    "58dfd3b5-d430-4bcf-9b5f-363e901a9590": {
+      "class_id": "58dfd3b5-d430-4bcf-9b5f-363e901a9590",
+      "class_name": "Class 10V",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 87%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61": {
+      "class_id": "5d9cc2a0-2501-44b7-b5f9-34a79d68bf61",
+      "class_name": "Class 6G",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 70%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "602ef40c-1cc3-4940-80ca-7240f48121e8": {
+      "class_id": "602ef40c-1cc3-4940-80ca-7240f48121e8",
+      "class_name": "Class 9O",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 82%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "61988215-68b1-4c19-8e70-8ddbca8f5106": {
+      "class_id": "61988215-68b1-4c19-8e70-8ddbca8f5106",
+      "class_name": "Class 12L",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 66%). Trend: stable. Avg tiredness: 3.5/5"
+    },
+    "632e2920-ce33-4f78-b971-cf2da4ca751d": {
+      "class_id": "632e2920-ce33-4f78-b971-cf2da4ca751d",
+      "class_name": "Class 7H",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "672fda93-4e49-45ae-a1e9-63baa4e8052e": {
+      "class_id": "672fda93-4e49-45ae-a1e9-63baa4e8052e",
+      "class_name": "Class 11G",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 70%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "6887da6f-3ea6-4b8b-ac34-a2955c884a56": {
+      "class_id": "6887da6f-3ea6-4b8b-ac34-a2955c884a56",
+      "class_name": "Class 12O",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 76%). Trend: stable. Avg tiredness: 4.2/5"
+    },
+    "6a9c4ced-3a53-46b0-8a89-68556b63b5bd": {
+      "class_id": "6a9c4ced-3a53-46b0-8a89-68556b63b5bd",
+      "class_name": "Class 9V",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 72%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "6c4176ed-7413-4fe1-b3a7-7347577e1bc3": {
+      "class_id": "6c4176ed-7413-4fe1-b3a7-7347577e1bc3",
+      "class_name": "Class 4G",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "6f83c644-6230-47cd-b1d4-3da7085dcab5": {
+      "class_id": "6f83c644-6230-47cd-b1d4-3da7085dcab5",
+      "class_name": "Class 2L",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 75%). Trend: declining. Avg tiredness: 4.4/5"
+    },
+    "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef": {
+      "class_id": "727734a0-e1ef-46e3-b9c9-dd61eb7d99ef",
+      "class_name": "Class 2L",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5. Notable absence rate: 13%"
+    },
+    "774f466f-c890-4e87-ba32-9161c8134081": {
+      "class_id": "774f466f-c890-4e87-ba32-9161c8134081",
+      "class_name": "Class 6P",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "782db4dc-bbd2-4878-910f-1468cfb42bc8": {
+      "class_id": "782db4dc-bbd2-4878-910f-1468cfb42bc8",
+      "class_name": "Class 5Q",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 82%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "78fb554b-32d9-4da7-b881-834ab10580c1": {
+      "class_id": "78fb554b-32d9-4da7-b881-834ab10580c1",
+      "class_name": "Class 2Q",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 86%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "79cca8b6-5326-48ca-9d7e-eaa935eaffbc": {
+      "class_id": "79cca8b6-5326-48ca-9d7e-eaa935eaffbc",
+      "class_name": "Class 10E",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 80%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "7ef8e858-cf04-454b-b1ca-2216a27c2c67": {
+      "class_id": "7ef8e858-cf04-454b-b1ca-2216a27c2c67",
+      "class_name": "Class 1D",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 86%). Trend: stable. Avg tiredness: 4.5/5. Notable absence rate: 11%"
+    },
+    "8361e50a-54a0-4b3f-89ab-998e658915a6": {
+      "class_id": "8361e50a-54a0-4b3f-89ab-998e658915a6",
+      "class_name": "Class 8M",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "85eb62af-55fe-433c-80c2-7534462cb32d": {
+      "class_id": "85eb62af-55fe-433c-80c2-7534462cb32d",
+      "class_name": "Class 9E",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 71%). Trend: stable. Avg tiredness: 4.1/5"
+    },
+    "864331ef-1928-472d-9dbc-4a900fe34279": {
+      "class_id": "864331ef-1928-472d-9dbc-4a900fe34279",
+      "class_name": "Class 5A",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 71%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "8b8343af-06d2-4922-8f66-af0abb8c8d42": {
+      "class_id": "8b8343af-06d2-4922-8f66-af0abb8c8d42",
+      "class_name": "Class 3K",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 88%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "8ce511b5-e810-480c-bc7d-fa84e84a6580": {
+      "class_id": "8ce511b5-e810-480c-bc7d-fa84e84a6580",
+      "class_name": "Class 8M",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 76%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "8e64ae85-5fd4-4179-be28-169c314a2359": {
+      "class_id": "8e64ae85-5fd4-4179-be28-169c314a2359",
+      "class_name": "Class 1K",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "908274ac-a1ae-42b3-ba07-9835de66dccf": {
+      "class_id": "908274ac-a1ae-42b3-ba07-9835de66dccf",
+      "class_name": "Class 6P",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "910a01d8-4593-46be-b990-9c891d28c022": {
+      "class_id": "910a01d8-4593-46be-b990-9c891d28c022",
+      "class_name": "Class 7E",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "917e6e5e-bd54-4a71-aa24-5d7366f19c73": {
+      "class_id": "917e6e5e-bd54-4a71-aa24-5d7366f19c73",
+      "class_name": "Class 7O",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 82%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff": {
+      "class_id": "9373cc9f-2f1c-4b14-b3c1-0755d0d886ff",
+      "class_name": "Class 11A",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.1/5"
+    },
+    "97045756-e77b-4af0-a722-6fba627f5660": {
+      "class_id": "97045756-e77b-4af0-a722-6fba627f5660",
+      "class_name": "Class 2L",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.8/5"
+    },
+    "9bebf5b2-9e00-4896-b259-9d2c751f1c5e": {
+      "class_id": "9bebf5b2-9e00-4896-b259-9d2c751f1c5e",
+      "class_name": "Class 6K",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 84%). Trend: improving. Avg tiredness: 4.8/5"
+    },
+    "9e67b111-8b86-4d7f-b539-b07c16c15862": {
+      "class_id": "9e67b111-8b86-4d7f-b539-b07c16c15862",
+      "class_name": "Class 2T",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "a2cf13b8-e26b-4197-ac02-a53638177530": {
+      "class_id": "a2cf13b8-e26b-4197-ac02-a53638177530",
+      "class_name": "Class 1B",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 88%). Trend: stable. Avg tiredness: 4.9/5"
+    },
+    "a6d9c68d-cf8d-4e58-8828-b97150b0d415": {
+      "class_id": "a6d9c68d-cf8d-4e58-8828-b97150b0d415",
+      "class_name": "Class 12J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 83%). Trend: improving. Avg tiredness: 4.6/5"
+    },
+    "a88b6c0d-f27f-4445-b621-110113a5a701": {
+      "class_id": "a88b6c0d-f27f-4445-b621-110113a5a701",
+      "class_name": "Class 11A",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 79%). Trend: stable. Avg tiredness: 4.1/5"
+    },
+    "aa1c50e8-eecd-48c0-81ff-d27401ca5a54": {
+      "class_id": "aa1c50e8-eecd-48c0-81ff-d27401ca5a54",
+      "class_name": "Class 1I",
+      "priority_level": "LOW",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.4/5"
+    },
+    "ad451a96-2a18-4299-a13b-4d3af86f445d": {
+      "class_id": "ad451a96-2a18-4299-a13b-4d3af86f445d",
+      "class_name": "Class 9T",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 90%). Trend: improving. Avg tiredness: 4.6/5"
+    },
+    "ae877add-a6ac-4acd-bf66-915d7122e384": {
+      "class_id": "ae877add-a6ac-4acd-bf66-915d7122e384",
+      "class_name": "Class 7J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 75%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "b0ab0362-959c-4572-861f-e1042994cffd": {
+      "class_id": "b0ab0362-959c-4572-861f-e1042994cffd",
+      "class_name": "Class 5M",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "b11781fb-7a23-4115-ba29-980139bedb1b": {
+      "class_id": "b11781fb-7a23-4115-ba29-980139bedb1b",
+      "class_name": "Class 1N",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 99%). Trend: stable. Avg tiredness: 5.0/5"
+    },
+    "b1f213e8-5430-423a-b4a6-b761981234df": {
+      "class_id": "b1f213e8-5430-423a-b4a6-b761981234df",
+      "class_name": "Class 11Z",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 66%). Trend: stable. Avg tiredness: 4.3/5"
+    },
+    "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe": {
+      "class_id": "b3dcc5cf-f1cc-4c08-be88-8c79e0255efe",
+      "class_name": "Class 10J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 86%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34": {
+      "class_id": "b6e9e5f8-5a4b-4b2c-9e50-515b214a2e34",
+      "class_name": "Class 6L",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 99%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd": {
+      "class_id": "b78fd2cd-503a-40d9-b6ed-63ac3d5770cd",
+      "class_name": "Class 7H",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "b89e9ed4-e112-405d-9a52-c0a2bad72772": {
+      "class_id": "b89e9ed4-e112-405d-9a52-c0a2bad72772",
+      "class_name": "Class 1W",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 78%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012": {
+      "class_id": "ba0a1cc7-72cd-4e8a-8178-7cea1c25c012",
+      "class_name": "Class 12C",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 84%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "bec2d3be-3c66-48bf-a92b-3cd4acc66280": {
+      "class_id": "bec2d3be-3c66-48bf-a92b-3cd4acc66280",
+      "class_name": "Class 6K",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 84%). Trend: declining. Avg tiredness: 4.4/5"
+    },
+    "bf03284a-263e-4aee-897e-bab1808d004d": {
+      "class_id": "bf03284a-263e-4aee-897e-bab1808d004d",
+      "class_name": "Class 5X",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 69%). Trend: declining. Avg tiredness: 4.3/5"
+    },
+    "c3c673e0-45c5-4527-96b1-b587655ca6f2": {
+      "class_id": "c3c673e0-45c5-4527-96b1-b587655ca6f2",
+      "class_name": "Class 7I",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 83%). Trend: improving. Avg tiredness: 4.6/5"
+    },
+    "c540d4c4-af00-4d65-a4e0-232623751a49": {
+      "class_id": "c540d4c4-af00-4d65-a4e0-232623751a49",
+      "class_name": "Class 11M",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 3.9/5"
+    },
+    "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152": {
+      "class_id": "c5719ebe-79d5-4cd1-8c72-2ab4c48e7152",
+      "class_name": "Class 10S",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 77%). Trend: stable. Avg tiredness: 4.7/5"
+    },
+    "c5ab524e-2b91-43e9-a90d-ae53c95db989": {
+      "class_id": "c5ab524e-2b91-43e9-a90d-ae53c95db989",
+      "class_name": "Class 2L",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 70%). Trend: stable. Avg tiredness: 4.0/5"
+    },
+    "d2feacaf-6b98-465b-af91-b4e806261a35": {
+      "class_id": "d2feacaf-6b98-465b-af91-b4e806261a35",
+      "class_name": "Class 9V",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 80%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c": {
+      "class_id": "d45987c5-fb9d-4c3f-b2f9-33b8bfd7973c",
+      "class_name": "Class 10K",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 87%). Trend: declining. Avg tiredness: 4.5/5"
+    },
+    "d7bacc85-1cfe-430f-80d2-3843b150ab57": {
+      "class_id": "d7bacc85-1cfe-430f-80d2-3843b150ab57",
+      "class_name": "Class 6N",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a": {
+      "class_id": "d82a2cd9-60b1-4377-bbcf-fbf2257ece2a",
+      "class_name": "Class 10J",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 79%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "d87e6036-ce2d-4236-bf74-f567f67dc8c1": {
+      "class_id": "d87e6036-ce2d-4236-bf74-f567f67dc8c1",
+      "class_name": "Class 4Q",
+      "priority_level": "MEDIUM",
+      "emotional_state": "EXCITED",
+      "recommended_activities": [
+        "Energising activities",
+        "Physical movement breaks",
+        "Collaborative challenges",
+        "Quick competitions"
+      ],
+      "recommended_duration": "10-15 minutes",
+      "activity_focus": "Direct high energy into structured learning tasks",
+      "expected_benefits": "Harnesses excitement for enhanced engagement",
+      "rationale": "Class is predominantly excited (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "db031dc7-ee54-4b7a-888c-64d796f99e52": {
+      "class_id": "db031dc7-ee54-4b7a-888c-64d796f99e52",
+      "class_name": "Class 9M",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5. Notable absence rate: 10%"
+    },
+    "dccba97a-2981-490f-8156-3b1844049acb": {
+      "class_id": "dccba97a-2981-490f-8156-3b1844049acb",
+      "class_name": "Class 10S",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 64%). Trend: stable. Avg tiredness: 4.2/5"
+    },
+    "decbe748-4470-4542-b113-376c00cd2483": {
+      "class_id": "decbe748-4470-4542-b113-376c00cd2483",
+      "class_name": "Class 12X",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "e2bcb306-f002-4feb-b7be-9d44d4cea520": {
+      "class_id": "e2bcb306-f002-4feb-b7be-9d44d4cea520",
+      "class_name": "Class 12L",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 84%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "e576f060-28d0-4506-8c22-a2b9afcb06ee": {
+      "class_id": "e576f060-28d0-4506-8c22-a2b9afcb06ee",
+      "class_name": "Class 7O",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "e822bd46-e4f2-4310-95f7-de1ad4a01c24": {
+      "class_id": "e822bd46-e4f2-4310-95f7-de1ad4a01c24",
+      "class_name": "Class 10G",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.5/5"
+    },
+    "e8658613-e2e8-42a7-a159-fc38608f2d36": {
+      "class_id": "e8658613-e2e8-42a7-a159-fc38608f2d36",
+      "class_name": "Class 4A",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 80%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "e8d96f86-ebf3-4055-bb2f-865012e9c090": {
+      "class_id": "e8d96f86-ebf3-4055-bb2f-865012e9c090",
+      "class_name": "Class 3X",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "ef9bea77-fddb-490d-a2d0-e1cb7cf76622": {
+      "class_id": "ef9bea77-fddb-490d-a2d0-e1cb7cf76622",
+      "class_name": "Class 1D",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "f6111951-4eb1-4da9-b4bb-02eee64ac2c2": {
+      "class_id": "f6111951-4eb1-4da9-b4bb-02eee64ac2c2",
+      "class_name": "Class 4X",
+      "priority_level": "MEDIUM",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.6/5"
+    },
+    "f74856c3-b0f2-4864-98b3-b6efb95134a9": {
+      "class_id": "f74856c3-b0f2-4864-98b3-b6efb95134a9",
+      "class_name": "Class 7Z",
+      "priority_level": "LOW",
+      "emotional_state": "HAPPY",
+      "recommended_activities": [
+        "Creative projects",
+        "Group discussions",
+        "Peer teaching",
+        "Achievement sharing"
+      ],
+      "recommended_duration": "5-10 minutes",
+      "activity_focus": "Channel positive energy into productive learning",
+      "expected_benefits": "Maintains positive momentum and reinforces learning",
+      "rationale": "Class is predominantly happy (intensity: 100%). Trend: stable. Avg tiredness: 4.4/5"
+    }
+  }
+}

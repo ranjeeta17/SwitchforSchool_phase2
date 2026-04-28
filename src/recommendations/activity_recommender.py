@@ -112,10 +112,20 @@ def generate_class_recommendation(class_profile: Dict[str, Any]) -> Dict[str, An
     base_rec = ACTIVITY_RECOMMENDATIONS.get(dominant_emotion, ACTIVITY_RECOMMENDATIONS["UNKNOWN"])
 
     # ── Priority override ─────────────────────────────────────────────────
+    # Base priority is set by dominant emotion (SAD/ANXIOUS/ANGRY/SCARED = HIGH,
+    # BORED/CONFUSED = MEDIUM, HAPPY/EXCITED/CALM = LOW)
     priority = base_rec["priority"]
-    if trend == "declining" and priority != "HIGH":
+
+    # Declining trend upgrades LOW → MEDIUM (not to HIGH by itself)
+    if trend == "declining" and priority == "LOW":
         priority = "MEDIUM"
-    if avg_tiredness >= 4.5 or absence_rate >= 0.3:
+
+    # High tiredness upgrades LOW → MEDIUM, MEDIUM stays MEDIUM
+    if avg_tiredness >= 4.5 and priority == "LOW":
+        priority = "MEDIUM"
+
+    # Severe absence rate (>15%) upgrades to HIGH
+    if absence_rate >= 0.15:
         priority = "HIGH"
 
     # ── Rationale ─────────────────────────────────────────────────────────

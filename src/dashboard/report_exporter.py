@@ -16,7 +16,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
 
-OUTPUTS_DIR = Path(__file__).resolve().parents[3] / "outputs"
+OUTPUTS_DIR = Path(__file__).resolve().parents[2] / "outputs"
 
 
 def _ensure_outputs_dir() -> None:
@@ -66,6 +66,29 @@ def export_recommendations(
     with open(path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False, default=str)
     print(f"[Exporter] Recommendations saved → {path}")
+    return str(path)
+
+
+def export_student_profiles(student_profiles: Dict[str, Dict], filename: str = "student_profiles.json") -> str:
+    """
+    Save full per-student profiles (including resilience + dysregulation_flags)
+    to JSON so the dashboard can display deep-dive and alert views.
+    """
+    _ensure_outputs_dir()
+    output = {
+        "analysis_metadata": {
+            "analysis_date":     datetime.now().isoformat(),
+            "total_students":    len(student_profiles),
+            "data_source":       "studentCheckIn_cleaned.csv",
+            "analysis_type":     "per_student_emotional_profiling",
+            "author":            "@Ranjeeta",
+        },
+        "student_profiles": student_profiles,
+    }
+    path = OUTPUTS_DIR / filename
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False, default=str)
+    print(f"[Exporter] Student profiles saved → {path}")
     return str(path)
 
 

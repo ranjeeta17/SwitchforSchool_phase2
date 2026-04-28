@@ -1,6 +1,6 @@
 """
 ================================================================
-Author  : @Ranjeeta
+Author  : @Ranjeeta  | @jaei | @vicky | @martin | @Maki
 Module  : run_pipeline.py
 Purpose : End-to-end pipeline runner
           Executes Phase 1 + Phase 2 in sequence and saves outputs
@@ -27,6 +27,7 @@ from src.dashboard.report_exporter import (
     export_class_profiles,
     export_recommendations,
     export_summary_csv,
+    export_student_profiles,
 )
 
 
@@ -70,6 +71,7 @@ def run_phase1():
     export_class_profiles(class_profiles)
     export_recommendations(recommendations, dashboard)
     export_summary_csv(class_profiles, recommendations)
+    export_student_profiles(student_profiles)
 
     print("\n✅ Phase 1 complete. Check the outputs/ folder for results.")
     return merged_df, class_profiles, student_profiles, classified_students
@@ -105,6 +107,14 @@ def run_phase2(merged_df, classified_students, student_profiles):
 
         export_risk_predictions(predictions)
         print("\n✅ Phase 2 complete. Check outputs/risk_predictions.json")
+
+        # Step 4: Cluster students by behavioural pattern (Epic E2)
+        try:
+            from src.profiling.student_clusterer import cluster_students
+            cluster_students(student_profiles, output_dir="outputs")
+            print("\n✅ Student clustering complete. Check outputs/student_clusters.json")
+        except ImportError as cluster_err:
+            print(f"[Phase 2] Clustering skipped — missing dependency: {cluster_err}")
 
     except ImportError as e:
         print(f"[Phase 2] Skipped — missing dependency: {e}")

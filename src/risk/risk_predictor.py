@@ -90,7 +90,7 @@ def build_risk_history_series(student_data: pd.DataFrame) -> List[float]:
     -------
     List[float] : Risk score per day (0–100 scale)
     """
-    from src.data.preprocessor import NEGATIVE_EMOTIONS  # avoid circular import
+    from src.data.preprocessor import UNPLEASANT_EMOTIONS  # avoid circular import
 
     student_data = student_data.sort_values("Created At").copy()
 
@@ -101,7 +101,7 @@ def build_risk_history_series(student_data: pd.DataFrame) -> List[float]:
     series = []
     for date, day_data in daily:
         score = 0.0
-        neg_ratio = day_data["Emotion"].isin(NEGATIVE_EMOTIONS).mean()
+        neg_ratio = day_data["Emotion"].isin(UNPLEASANT_EMOTIONS).mean()
         avg_intensity = day_data["Emotion Intensity Percentage"].mean() if "Emotion Intensity Percentage" in day_data else 0.5
         avg_tiredness = day_data["Tiredness"].mean() if "Tiredness" in day_data else 3.0
 
