@@ -1,4 +1,4 @@
-# AI-Powered Emotional Intelligence Support — Switch4Schools
+# Student Emotion Detection and Alert System — Switch4Schools
 **IFN735 Industry Project | Team 29 | Phase 1 & Phase 2**
 
 > **Author of project structure & src modules:** Quantum Hustle Team
