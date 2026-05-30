@@ -1,6 +1,6 @@
 """
 ================================================================
-Author  : @Ranjeeta
+Author  : @quantum hustel
 Module  : app/app.py
 Purpose : Streamlit teacher dashboard — Switch4Schools
           6 views: Alert Inbox, Class Overview, At-Risk Students,
@@ -15,6 +15,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import json
+import time
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -103,8 +104,9 @@ OUTPUTS_DIR       = Path(__file__).resolve().parent.parent / "outputs"
 PROFILES_PATH     = OUTPUTS_DIR / "class_emotional_profiles.json"
 RECS_PATH         = OUTPUTS_DIR / "class_recommendations.json"
 PREDICTIONS_PATH  = OUTPUTS_DIR / "risk_predictions.json"
-STU_PROFILES_PATH = OUTPUTS_DIR / "student_profiles.json"
-CLUSTERS_PATH     = OUTPUTS_DIR / "student_clusters.json"
+STU_PROFILES_PATH  = OUTPUTS_DIR / "student_profiles.json"
+CLUSTERS_PATH      = OUTPUTS_DIR / "student_clusters.json"
+CLASS_MAP_PATH     = OUTPUTS_DIR / "class_student_map.json"
 
 PRIORITY_COLORS = {"HIGH": "#E74C3C", "MEDIUM": "#F39C12", "LOW": "#27AE60"}
 EMOTION_COLORS  = {
@@ -145,6 +147,12 @@ def load_clusters():
     if not CLUSTERS_PATH.exists(): return {}
     with open(CLUSTERS_PATH) as f: return json.load(f)
 
+@st.cache_data
+def load_class_map():
+    if not CLASS_MAP_PATH.exists(): return {}
+    with open(CLASS_MAP_PATH) as f: data = json.load(f)
+    return data.get("class_map", {})
+
 
 # ── Load all data ─────────────────────────────────────────────────────────────
 profiles     = load_profiles()
@@ -152,6 +160,7 @@ recs         = load_recommendations()
 preds        = load_predictions()
 stu_profiles = load_student_profiles()
 clusters     = load_clusters()
+class_map    = load_class_map()
 
 high_count   = sum(1 for r in recs.values() if r.get("priority_level") == "HIGH")
 medium_count = sum(1 for r in recs.values() if r.get("priority_level") == "MEDIUM")
@@ -167,6 +176,41 @@ with st.sidebar:
     st.markdown('<div class="sidebar-sub">WELLBEING INTELLIGENCE PLATFORM</div>', unsafe_allow_html=True)
     st.markdown("---")
 
+    # ── Global class selector ──────────────────────────────────
+    # Teacher picks their class first; every student-level view
+    # (Alert Inbox, At-Risk, Deep-Dive) filters to that class only.
+    # Initialise class-change flag before the if/else so it's always defined
+    _class_just_changed = False
+
+    if class_map:
+        class_options = {"All Classes": None}
+        for cid, cdata in sorted(class_map.items(), key=lambda x: x[1]["class_name"]):
+            class_options[cdata["class_name"]] = cid
+        selected_class_name = st.selectbox("📚 Select Class", list(class_options.keys()))
+        selected_class_id   = class_options[selected_class_name]
+
+        # Detect class change → show loading spinner in sidebar
+        if "prev_class" not in st.session_state:
+            st.session_state.prev_class = selected_class_name
+        _class_just_changed = st.session_state.prev_class != selected_class_name
+        if _class_just_changed:
+            st.session_state.prev_class = selected_class_name
+            with st.spinner(f"Loading {selected_class_name}..."):
+                time.sleep(0.45)   # brief pause so the spinner is visible
+
+        # Set of student IDs in selected class (None = no filter)
+        active_sids = (
+            set(class_map[selected_class_id]["student_ids"])
+            if selected_class_id else None
+        )
+    else:
+        selected_class_name = "All Classes"
+        selected_class_id   = None
+        active_sids = None
+        st.info("Run pipeline to enable class filtering.")
+
+    st.markdown("---")
+
     view_mode = st.radio(
         "Navigation",
         ["🚨 Alert Inbox", "📊 Class Overview", "⚠️ At-Risk Students",
@@ -175,33 +219,49 @@ with st.sidebar:
     )
 
     st.markdown("---")
+
+    # Apply class filter to derive scoped datasets used across all views
+    scoped_preds        = [p for p in preds if active_sids is None or p["student_id"] in active_sids]
+    scoped_stu_profiles = {sid: sp for sid, sp in stu_profiles.items() if active_sids is None or sid in active_sids}
+
     st.markdown("**Quick Stats**")
+    if selected_class_name != "All Classes":
+        st.markdown(f"Class: **{selected_class_name}**")
     st.markdown(f"Classes monitored: **{len(profiles)}**")
-    st.markdown(f"Students tracked: **{len(preds):,}**")
-    escalating = sum(1 for p in preds if p.get("trajectory") == "escalating")
+    st.markdown(f"Students in view: **{len(scoped_preds):,}**")
+    escalating = sum(1 for p in scoped_preds if p.get("trajectory") == "escalating")
     st.markdown(f"Escalating now: **{escalating:,}**")
-    if stu_profiles:
+    if scoped_stu_profiles:
         compound_flags = sum(
-            1 for sp in stu_profiles.values()
+            1 for sp in scoped_stu_profiles.values()
             if sp.get("dysregulation_flags", {}).get("compound_flag_rate", 0) >= 0.05
         )
         st.markdown(f"Multi-flag alerts: **{compound_flags:,}**")
 
     st.markdown("---")
-    st.markdown('<span style="font-size:0.72rem; color:#6B7A9F;">IFN735 Team 29 · @Ranjeeta</span>', unsafe_allow_html=True)
+    st.markdown('<span style="font-size:0.72rem; color:#6B7A9F;">IFN735 Team 29 · Quantum Hustle</span>', unsafe_allow_html=True)
 
+
+# Toast notification when class selection changes
+if _class_just_changed and selected_class_name != "All Classes":
+    st.toast(f"📚 Switched to **{selected_class_name}**", icon="✅")
 
 # ── Page header ───────────────────────────────────────────────────────────────
 st.markdown("## Wellbeing Intelligence Dashboard")
-st.markdown('<p style="color:#7B8AB8; font-size:0.88rem; margin-top:-12px; margin-bottom:20px;">Real-time student emotional wellbeing monitoring and early-warning system</p>', unsafe_allow_html=True)
+scope_label = f" — {selected_class_name}" if selected_class_name != "All Classes" else ""
+st.markdown(f'<p style="color:#7B8AB8; font-size:0.88rem; margin-top:-12px; margin-bottom:20px;">Real-time student emotional wellbeing monitoring{scope_label}</p>', unsafe_allow_html=True)
 
-# ── KPI row ───────────────────────────────────────────────────────────────────
+# ── KPI row (scoped to selected class) ────────────────────────────────────────
+scoped_high   = sum(1 for p in scoped_preds if p.get("risk_level") == "HIGH")
+scoped_medium = sum(1 for p in scoped_preds if p.get("risk_level") == "MEDIUM")
+scoped_low    = sum(1 for p in scoped_preds if p.get("risk_level") == "LOW")
+
 k1, k2, k3, k4, k5 = st.columns(5)
 k1.metric("Classes Monitored",  len(profiles))
-k2.metric("Students Tracked",   f"{len(preds):,}")
-k3.metric("High Priority",      high_count,   delta="Needs attention", delta_color="inverse")
-k4.metric("Medium Priority",    medium_count, delta_color="off")
-k5.metric("Low Priority",       low_count,    delta_color="off")
+k2.metric("Students in View",   f"{len(scoped_preds):,}")
+k3.metric("High Risk",          scoped_high,   delta="Needs attention", delta_color="inverse")
+k4.metric("Medium Risk",        scoped_medium, delta_color="off")
+k5.metric("Low Risk",           scoped_low,    delta_color="off")
 
 st.markdown("---")
 
@@ -210,14 +270,14 @@ st.markdown("---")
 # VIEW 1 — ALERT INBOX
 # ═══════════════════════════════════════════════════════════════════════════════
 if view_mode == "🚨 Alert Inbox":
-    st.markdown('<div class="section-header">🚨 Alert Inbox — Students Needing Immediate Attention</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="section-header">🚨 Alert Inbox — {selected_class_name}</div>', unsafe_allow_html=True)
 
-    if not stu_profiles:
+    if not scoped_stu_profiles:
         st.warning("No student profiles found. Run `python run_pipeline.py` first.")
     else:
         # Build alert list from new metrics
         alert_rows = []
-        for sid, sp in stu_profiles.items():
+        for sid, sp in scoped_stu_profiles.items():
             em   = sp.get("emotions", {})
             wl   = sp.get("wellness_indicators", {})
             tr   = sp.get("trend_analysis", {})
@@ -334,11 +394,110 @@ if view_mode == "🚨 Alert Inbox":
 # VIEW 2 — CLASS OVERVIEW
 # ═══════════════════════════════════════════════════════════════════════════════
 elif view_mode == "📊 Class Overview":
-    st.markdown('<div class="section-header">Class Emotional Profiles</div>', unsafe_allow_html=True)
 
     if not profiles:
         st.warning("No class profiles found. Run `python run_pipeline.py` first.")
+
+    # ── SINGLE CLASS DETAILED VIEW ─────────────────────────────────────────
+    elif selected_class_id and selected_class_id in profiles:
+        p   = profiles[selected_class_id]
+        rec = recs.get(selected_class_id, {})
+        em  = p.get("emotions", {})
+        wl  = p.get("wellness_indicators", {})
+        tr  = p.get("trend_analysis", {})
+        class_name = p.get("class_name", selected_class_id)
+
+        st.markdown(f'<div class="section-header">📊 Class Overview — {class_name}</div>', unsafe_allow_html=True)
+
+        # ── Key metrics row ────────────────────────────────────────
+        m1, m2, m3, m4, m5 = st.columns(5)
+        m1.metric("Total Sessions",  p.get("total_sessions", 0))
+        m2.metric("Total Students",  p.get("total_students", 0))
+        m3.metric("Dominant Emotion", em.get("dominant_emotion", "N/A"))
+        m4.metric("Avg Intensity",   f"{em.get('avg_intensity', 0):.3f}")
+        m5.metric("Avg Tiredness",   f"{wl.get('avg_tiredness', 0):.2f} / 5")
+
+        st.markdown("---")
+
+        # ── Two-column detail cards ────────────────────────────────
+        col_info, col_act = st.columns(2)
+
+        with col_info:
+            priority    = rec.get("priority_level", "N/A")
+            pcolor      = {"HIGH":"#E74C3C","MEDIUM":"#F39C12","LOW":"#27AE60"}.get(priority,"#7B8AB8")
+            trend       = tr.get("trend", "N/A")
+            slope       = tr.get("slope")
+            absence     = wl.get("absence_rate", 0)
+            trend_color = {"worsening":"#E74C3C","improving":"#27AE60","stable":"#3498DB"}.get(trend,"#95A5A6")
+            slope_str   = f" &nbsp;<span style='font-size:0.8rem;color:#9EA8CC;'>(slope: {slope})</span>" if slope is not None else ""
+            st.markdown(f"""
+            <div class="card">
+              <p style="margin:0 0 12px 0;font-size:1.05rem;font-weight:600;">Class Health Summary</p>
+              <p style="margin:0 0 8px 0;"><b>Priority Level:</b>
+                <span style="color:{pcolor};font-weight:700;font-size:1.05rem;">&nbsp;{priority}</span></p>
+              <p style="margin:0 0 8px 0;"><b>Emotional Trend:</b>
+                <span style="color:{trend_color};font-weight:600;">&nbsp;{trend.upper()}</span>{slope_str}</p>
+              <p style="margin:0 0 8px 0;"><b>Absence Rate:</b>&nbsp; {absence*100:.1f}%</p>
+              <p style="margin:0 0 8px 0;"><b>Avg Intensity:</b>&nbsp; {em.get('avg_intensity',0):.3f}
+                &nbsp;<span style='font-size:0.8rem;color:#9EA8CC;'>(HIGH = dysregulation)</span></p>
+              <p style="margin:0;"><b>Last Session:</b>&nbsp; {p.get('last_session','N/A')}</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col_act:
+            activities = rec.get("recommended_activities", [])
+            duration   = rec.get("recommended_duration", "N/A")
+            rationale  = rec.get("rationale", "")
+            act_html   = "".join(f'<p style="margin:3px 0;">&#8226; {a}</p>' for a in activities) \
+                         if activities else "<p style='color:#7B8AB8;'>No specific activities recommended.</p>"
+            rat_html   = f'<p style="margin:8px 0 0 0;color:#7B8AB8;font-size:0.82rem;">{rationale}</p>' if rationale else ""
+            st.markdown(f"""
+            <div class="card">
+              <p style="margin:0 0 12px 0;font-size:1.05rem;font-weight:600;">Recommended Activities</p>
+              {act_html}
+              <p style="margin:10px 0 0 0;"><b>Suggested Duration:</b>&nbsp; {duration}</p>
+              {rat_html}
+            </div>
+            """, unsafe_allow_html=True)
+
+        st.markdown("---")
+
+        # ── Emotion distribution chart for this class ──────────────
+        emo_dist = em.get("emotion_distribution", em.get("emotion_counts", {}))
+        if emo_dist:
+            emo_df = pd.DataFrame(list(emo_dist.items()), columns=["Emotion", "Count"])
+            emo_df = emo_df.sort_values("Count", ascending=False)
+            fig = px.bar(emo_df, x="Emotion", y="Count", color="Emotion",
+                         color_discrete_map=EMOTION_COLORS,
+                         title=f"Emotion Distribution — {class_name}")
+            fig.update_layout(**CHART_THEME, title_font_size=14, showlegend=False,
+                              height=300, margin=dict(t=40,b=10,l=10,r=10),
+                              xaxis=dict(tickangle=-20))
+            st.plotly_chart(fig, use_container_width=True)
+
+        # ── Single-row summary table ───────────────────────────────
+        st.markdown("#### Full Profile Summary")
+        summary_row = pd.DataFrame([{
+            "Class":          class_name,
+            "Emotion":        em.get("dominant_emotion","N/A"),
+            "Intensity":      round(em.get("avg_intensity",0),3),
+            "Tiredness":      round(wl.get("avg_tiredness",0),2),
+            "Absence %":      f"{wl.get('absence_rate',0)*100:.1f}%",
+            "Trend":          tr.get("trend","N/A"),
+            "Sessions":       p.get("total_sessions",0),
+            "Students":       p.get("total_students",0),
+            "Priority":       rec.get("priority_level","N/A"),
+            "Activities":     "; ".join((rec.get("recommended_activities",[]))[:3]),
+        }])
+        def colour_priority_ov(val):
+            return "background-color: " + {"HIGH":"#FDECEA","MEDIUM":"#FEF9E7","LOW":"#EAFAF1"}.get(val,"white")
+        st.dataframe(summary_row.style.applymap(colour_priority_ov, subset=["Priority"]),
+                     use_container_width=True)
+
+    # ── ALL CLASSES VIEW ───────────────────────────────────────────────────
     else:
+        st.markdown('<div class="section-header">📊 All Classes — Emotional Profiles</div>', unsafe_allow_html=True)
+
         rows = []
         for cid, p in profiles.items():
             rec = recs.get(cid, {})
@@ -364,7 +523,11 @@ elif view_mode == "📊 Class Overview":
         with col_f3:
             emotion_filter = st.multiselect("Dominant Emotion", df["Emotion"].unique().tolist(), default=df["Emotion"].unique().tolist())
 
-        df_f = df[df["Priority"].isin(priority_filter) & df["Trend"].isin(trend_filter) & df["Emotion"].isin(emotion_filter)]
+        df_f = df[
+            df["Priority"].isin(priority_filter) &
+            df["Trend"].isin(trend_filter) &
+            df["Emotion"].isin(emotion_filter)
+        ]
 
         def colour_priority(val):
             return "background-color: " + {"HIGH":"#FDECEA","MEDIUM":"#FEF9E7","LOW":"#EAFAF1"}.get(val,"white")
@@ -419,26 +582,26 @@ elif view_mode == "📊 Class Overview":
 # VIEW 3 — AT-RISK STUDENTS  (enhanced with new metrics)
 # ═══════════════════════════════════════════════════════════════════════════════
 elif view_mode == "⚠️ At-Risk Students":
-    st.markdown('<div class="section-header">At-Risk Student Overview</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="section-header">⚠️ At-Risk Students — {selected_class_name}</div>', unsafe_allow_html=True)
 
-    if not preds:
+    if not scoped_preds:
         st.warning("No risk prediction data found. Run `python run_pipeline.py` first.")
     else:
-        high_risk = [p for p in preds if p.get("risk_level") == "HIGH"]
-        med_risk  = [p for p in preds if p.get("risk_level") == "MEDIUM"]
+        high_risk = [p for p in scoped_preds if p.get("risk_level") == "HIGH"]
+        med_risk  = [p for p in scoped_preds if p.get("risk_level") == "MEDIUM"]
 
         s1, s2, s3 = st.columns(3)
         s1.metric("HIGH Risk Students",   len(high_risk))
         s2.metric("MEDIUM Risk Students", len(med_risk))
-        s3.metric("LOW Risk Students",    len(preds) - len(high_risk) - len(med_risk))
+        s3.metric("LOW Risk Students",    len(scoped_preds) - len(high_risk) - len(med_risk))
 
         st.markdown("---")
 
         # Build enriched table including new profile metrics
         enriched = []
-        for p in preds:
+        for p in scoped_preds:
             sid = p["student_id"]
-            sp  = stu_profiles.get(sid, {})
+            sp  = scoped_stu_profiles.get(sid, {})
             res = sp.get("resilience", {})
             fl  = sp.get("dysregulation_flags", {})
             tr  = sp.get("trend_analysis", {})
@@ -474,17 +637,17 @@ elif view_mode == "⚠️ At-Risk Students":
         st.markdown("---")
         c1, c2 = st.columns(2)
         with c1:
-            risk_counts = pd.DataFrame(preds)["risk_level"].value_counts().reset_index()
+            risk_counts = pd.DataFrame(scoped_preds)["risk_level"].value_counts().reset_index()
             risk_counts.columns = ["Risk Level", "Count"]
             fig = px.pie(risk_counts, names="Risk Level", values="Count", color="Risk Level",
                          color_discrete_map={"HIGH":"#E74C3C","MEDIUM":"#F39C12","LOW":"#27AE60"},
-                         title="Overall Risk Distribution", hole=0.45)
+                         title=f"Risk Distribution — {selected_class_name}", hole=0.45)
             fig.update_layout(**CHART_THEME, title_font_size=14, margin=dict(t=40,b=10,l=10,r=10))
             st.plotly_chart(fig, use_container_width=True)
 
         with c2:
-            if "trajectory" in pd.DataFrame(preds).columns:
-                traj_counts = pd.DataFrame(preds)["trajectory"].value_counts().reset_index()
+            if "trajectory" in pd.DataFrame(scoped_preds).columns:
+                traj_counts = pd.DataFrame(scoped_preds)["trajectory"].value_counts().reset_index()
                 traj_counts.columns = ["Trajectory", "Count"]
                 fig = px.bar(traj_counts, x="Trajectory", y="Count", color="Trajectory",
                              color_discrete_map={"escalating":"#E74C3C","stable":"#3498DB","recovering":"#27AE60"},
@@ -492,7 +655,7 @@ elif view_mode == "⚠️ At-Risk Students":
                 fig.update_layout(**CHART_THEME, title_font_size=14, showlegend=False, margin=dict(t=40,b=10,l=10,r=10))
                 st.plotly_chart(fig, use_container_width=True)
 
-        # Risk factors breakdown for top HIGH risk student
+        # Risk factors breakdown for top HIGH risk students
         if high_risk:
             st.markdown("---")
             st.markdown("#### Risk Factors — Top HIGH Risk Students")
@@ -511,25 +674,25 @@ elif view_mode == "⚠️ At-Risk Students":
 # VIEW 4 — STUDENT DEEP-DIVE
 # ═══════════════════════════════════════════════════════════════════════════════
 elif view_mode == "🔍 Student Deep-Dive":
-    st.markdown('<div class="section-header">Student Deep-Dive — Full Longitudinal Profile</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="section-header">🔍 Student Deep-Dive — {selected_class_name}</div>', unsafe_allow_html=True)
 
-    if not stu_profiles:
+    if not scoped_stu_profiles:
         st.warning("No student profiles found. Run `python run_pipeline.py` first.")
     else:
-        # Sort students by priority_score so highest risk appear first in dropdown
+        # Sort students by priority_score — highest risk first in dropdown
         sorted_sids = sorted(
-            stu_profiles.keys(),
+            scoped_stu_profiles.keys(),
             key=lambda s: pred_lookup.get(s, {}).get("priority_score", 0),
             reverse=True,
         )
 
         selected_sid = st.selectbox(
-            "Select a student (sorted by priority score — highest risk first)",
+            "Select a student (sorted by priority — highest risk first)",
             sorted_sids,
             format_func=lambda s: f"{s[:16]}…  [{pred_lookup.get(s,{}).get('risk_level','?')} | Score {pred_lookup.get(s,{}).get('risk_score',0)}]"
         )
 
-        sp   = stu_profiles[selected_sid]
+        sp   = scoped_stu_profiles[selected_sid]
         pred = pred_lookup.get(selected_sid, {})
 
         em    = sp.get("emotions", {})
@@ -661,12 +824,12 @@ elif view_mode == "🔍 Student Deep-Dive":
 # VIEW 5 — RISK PREDICTIONS
 # ═══════════════════════════════════════════════════════════════════════════════
 elif view_mode == "📈 Risk Predictions":
-    st.markdown('<div class="section-header">Phase 2 — Risk Trajectory Predictions</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="section-header">📈 Risk Predictions — {selected_class_name}</div>', unsafe_allow_html=True)
 
-    if not preds:
+    if not scoped_preds:
         st.warning("No prediction data found. Run `python run_pipeline.py` first.")
     else:
-        df_pred = pd.DataFrame(preds)
+        df_pred = pd.DataFrame(scoped_preds)
 
         st.markdown("#### Top 10 Highest Priority Students")
         top10_cols = ["student_id","risk_level","risk_score","priority_score","escalation_probability","trajectory"]
@@ -713,136 +876,192 @@ elif view_mode == "📈 Risk Predictions":
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# VIEW 6 — CLUSTER VIEW
+# VIEW 6 — CLUSTER VIEW  (with K explorer)
 # ═══════════════════════════════════════════════════════════════════════════════
 elif view_mode == "🔵 Cluster View":
-    st.markdown('<div class="section-header">Student Behavioural Clusters — Stable vs Emotionally Distressed</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-header">🔵 Student Behavioural Clusters — K Explorer</div>', unsafe_allow_html=True)
 
     if not clusters:
         st.warning("No cluster data found. Run `python run_pipeline.py` first.")
     else:
-        summaries = clusters.get("cluster_summaries", {})
-        assignments = clusters.get("student_assignments", {})
-        metrics_comparison = clusters.get("metrics_comparison", [])
-        best_k = clusters.get("best_k", 2)
-        algorithm = clusters.get("algorithm", "K-Means")
+        summaries        = clusters.get("cluster_summaries", {})
+        assignments      = clusters.get("student_assignments", {})
+        metrics_cmp      = clusters.get("metrics_comparison", [])
+        best_k           = clusters.get("best_k", 2)
+        algorithm        = clusters.get("algorithm", "K-Means")
+        all_k_results    = clusters.get("all_k_results", {})
 
-        # ── KPI row ────────────────────────────────────────────────────
-        total_students = sum(s.get("n_students", 0) for s in summaries.values())
-        distressed_n = sum(s.get("n_students", 0) for s in summaries.values() if "distressed" in s.get("archetype", "").lower() or "emotionally" in s.get("archetype","").lower())
-        stable_n = total_students - distressed_n
+        # ── Top KPI row (best-K results) ───────────────────────────────
+        total_clustered = sum(s.get("n_students", 0) for s in summaries.values())
+        distressed_n = sum(
+            s.get("n_students", 0) for s in summaries.values()
+            if "distressed" in s.get("archetype","").lower() or "emotionally" in s.get("archetype","").lower()
+        )
+        stable_n = total_clustered - distressed_n
 
         ck1, ck2, ck3, ck4 = st.columns(4)
-        ck1.metric("Total Students Clustered", f"{total_students:,}")
-        ck2.metric("Stable", f"{stable_n:,}", delta=f"{stable_n/max(total_students,1):.1%}")
-        ck3.metric("Emotionally Distressed", f"{distressed_n:,}", delta=f"{distressed_n/max(total_students,1):.1%}", delta_color="inverse")
-        ck4.metric("Optimal K", best_k)
+        ck1.metric("Total Students Clustered",  f"{total_clustered:,}")
+        ck2.metric("Stable",                    f"{stable_n:,}",      delta=f"{stable_n/max(total_clustered,1):.1%}")
+        ck3.metric("Emotionally Distressed",    f"{distressed_n:,}",  delta=f"{distressed_n/max(total_clustered,1):.1%}", delta_color="inverse")
+        ck4.metric("Optimal K (Best Silhouette)", best_k)
 
         st.markdown("---")
 
-        # ── Cluster summary table ──────────────────────────────────────
-        st.markdown("#### Cluster Summaries")
+        # ── SECTION A: Best-K results (canonical) ─────────────────────
+        st.markdown(f"### Best K = {best_k} Results  ({algorithm})")
         sum_rows = []
         for cid, cs in summaries.items():
             if cid == "-1": continue
             sum_rows.append({
-                "Cluster ID":          cid,
-                "Archetype":           cs.get("archetype","N/A"),
-                "Students":            cs.get("n_students",0),
+                "Cluster":              cid,
+                "Archetype":            cs.get("archetype","N/A"),
+                "Students":             cs.get("n_students", 0),
                 "Avg Unpleasant Ratio": f"{cs.get('mean_unpleasant_ratio',0):.1%}",
-                "Avg Intensity":       f"{cs.get('mean_avg_intensity',0):.3f}",
-                "Avg Tiredness":       f"{cs.get('mean_avg_tiredness',0):.2f}",
-                "Avg Absence Rate":    f"{cs.get('mean_absence_rate',0):.1%}",
+                "Avg Intensity":        f"{cs.get('mean_avg_intensity',0):.3f}",
+                "Avg Tiredness":        f"{cs.get('mean_avg_tiredness',0):.2f}",
+                "Avg Absence Rate":     f"{cs.get('mean_absence_rate',0):.1%}",
             })
         if sum_rows:
             st.dataframe(pd.DataFrame(sum_rows), use_container_width=True)
 
-        st.markdown("---")
-
         c1, c2 = st.columns(2)
         with c1:
-            # Pie chart of cluster sizes
             pie_data = pd.DataFrame([
                 {"Archetype": cs.get("archetype","N/A"), "Count": cs.get("n_students",0)}
                 for cid, cs in summaries.items() if cid != "-1"
             ])
             if not pie_data.empty:
-                arch_colors = {"Stable":"#27AE60","Emotionally Distressed":"#E74C3C"}
                 fig = px.pie(pie_data, names="Archetype", values="Count",
-                             color="Archetype", color_discrete_map=arch_colors,
-                             title=f"Cluster Distribution (K={best_k}, {algorithm})", hole=0.4)
-                fig.update_layout(**CHART_THEME, title_font_size=14, margin=dict(t=40,b=10,l=10,r=10))
+                             color="Archetype",
+                             color_discrete_map={"Stable":"#27AE60","Emotionally Distressed":"#E74C3C"},
+                             title=f"Cluster Distribution — Best K={best_k}", hole=0.4)
+                fig.update_layout(**CHART_THEME, title_font_size=13, margin=dict(t=40,b=10,l=10,r=10))
                 st.plotly_chart(fig, use_container_width=True)
 
         with c2:
-            # Algorithm comparison table
-            if metrics_comparison:
-                st.markdown("#### Algorithm Comparison")
-                mc_rows = []
-                for m in metrics_comparison:
-                    mc_rows.append({
-                        "Algorithm":      m.get("algorithm","N/A"),
-                        "K":              m.get("n_clusters","N/A"),
-                        "Silhouette":     m.get("silhouette"),
-                        "Calinski-H":     m.get("calinski_harabasz"),
-                        "Davies-Bouldin": m.get("davies_bouldin"),
-                    })
-                mc_df = pd.DataFrame(mc_rows)
-                best_sil_idx = mc_df["Silhouette"].idxmax() if mc_df["Silhouette"].notna().any() else None
-
+            if metrics_cmp:
+                st.markdown("#### 4-Algorithm Comparison (at K={})".format(best_k))
+                mc_df = pd.DataFrame([{
+                    "Algorithm":      m.get("algorithm","N/A"),
+                    "K":              m.get("n_clusters","N/A"),
+                    "Silhouette":     m.get("silhouette"),
+                    "Calinski-H":     m.get("calinski_harabasz"),
+                    "Davies-Bouldin": m.get("davies_bouldin"),
+                } for m in metrics_cmp])
+                best_idx = mc_df["Silhouette"].idxmax() if mc_df["Silhouette"].notna().any() else None
                 def highlight_best(row):
-                    if row.name == best_sil_idx:
-                        return ["background-color: #EAFAF1"] * len(row)
-                    return [""] * len(row)
-
+                    return ["background-color:#EAFAF1"]*len(row) if row.name == best_idx else [""]*len(row)
                 st.dataframe(mc_df.style.apply(highlight_best, axis=1), use_container_width=True)
 
-        # ── Distressed students list ───────────────────────────────────
         st.markdown("---")
-        st.markdown("#### Emotionally Distressed Students (K-Means Cluster)")
+
+        # ── SECTION B: K Explorer — explore any K from 2 to 9 ─────────
+        st.markdown("### K Explorer — Compare Different Cluster Solutions")
+        st.caption("Use the slider to explore how the data splits at different K values. "
+                   "K=2 is the statistically optimal choice (highest silhouette). "
+                   "Higher K reveals sub-groups within Stable students.")
+
+        if all_k_results:
+            k_options = sorted([int(k) for k in all_k_results.keys()])
+            selected_k = st.select_slider(
+                "Select K to explore",
+                options=k_options,
+                value=best_k,
+                format_func=lambda k: f"K={k}{'  ← Best' if k == best_k else ''}",
+            )
+            k_data = all_k_results[str(selected_k)]
+            k_sil  = k_data.get("silhouette", "N/A")
+            k_sums = k_data.get("cluster_summaries", {})
+
+            st.markdown(f"**K={selected_k}** — Silhouette score: `{k_sil}`")
+
+            # PCA scatter image for this K
+            img_path = OUTPUTS_DIR / k_data.get("pca_image", "")
+            if img_path.exists():
+                st.image(str(img_path), caption=f"K-Means PCA Projection — K={selected_k}", use_column_width=True)
+            else:
+                st.info("PCA image not found — re-run pipeline to generate all-K visualisations.")
+
+            # Cluster composition bar chart for selected K
+            bar_rows = [
+                {"Cluster": f"C{cid} — {cs['archetype']}", "Students": cs["n_students"]}
+                for cid, cs in k_sums.items()
+            ]
+            if bar_rows:
+                bar_df = pd.DataFrame(bar_rows)
+                arch_palette = {"Stable":"#27AE60","Emotionally Distressed":"#E74C3C"}
+                bar_colors   = [arch_palette.get(cs["archetype"], "#3498DB") for cs in k_sums.values()]
+                fig = px.bar(bar_df, x="Cluster", y="Students",
+                             title=f"Cluster Sizes — K={selected_k}",
+                             color="Cluster",
+                             color_discrete_sequence=bar_colors)
+                fig.update_layout(**CHART_THEME, title_font_size=13, showlegend=False,
+                                  margin=dict(t=40,b=30,l=20,r=20))
+                st.plotly_chart(fig, use_container_width=True)
+
+            # Detailed cluster table for selected K
+            k_sum_rows = []
+            for cid, cs in k_sums.items():
+                k_sum_rows.append({
+                    "Cluster":              cid,
+                    "Archetype":            cs.get("archetype","N/A"),
+                    "Students":             cs.get("n_students",0),
+                    "Avg Unpleasant Ratio": f"{cs.get('mean_unpleasant_ratio',0):.1%}",
+                    "Avg Intensity":        f"{cs.get('mean_avg_intensity',0):.3f}",
+                    "Avg Tiredness":        f"{cs.get('mean_avg_tiredness',0):.2f}",
+                })
+            if k_sum_rows:
+                st.dataframe(pd.DataFrame(k_sum_rows), use_container_width=True)
+        else:
+            st.info("K Explorer data not available — re-run pipeline to generate multi-K results.")
+
+        st.markdown("---")
+
+        # ── SECTION C: Distressed students list ───────────────────────
+        st.markdown("#### Emotionally Distressed Students (Best K-Means)")
         distressed_sids = [
             sid for sid, asgn in assignments.items()
             if "distressed" in asgn.get("archetype","").lower() or "emotionally" in asgn.get("archetype","").lower()
         ]
+        # Apply class filter to distressed list
+        if active_sids is not None:
+            distressed_sids = [s for s in distressed_sids if s in active_sids]
 
         if distressed_sids:
             dist_rows = []
             for sid in distressed_sids[:200]:
                 pred = pred_lookup.get(sid, {})
-                sp   = stu_profiles.get(sid, {})
+                sp   = scoped_stu_profiles.get(sid, stu_profiles.get(sid, {}))
                 em   = sp.get("emotions", {})
                 res  = sp.get("resilience", {})
                 fl   = sp.get("dysregulation_flags", {})
                 dist_rows.append({
-                    "student_id":        sid,
-                    "risk_level":        pred.get("risk_level","N/A"),
-                    "risk_score":        pred.get("risk_score",0),
-                    "dominant_emotion":  em.get("dominant_emotion","N/A"),
-                    "unpleasant_ratio":  em.get("unpleasant_ratio",0),
-                    "avg_intensity":     em.get("avg_intensity",0),
-                    "bounce_back":       res.get("bounce_back_avg_checkins"),
-                    "compound_flag_%":   f"{fl.get('compound_flag_rate',0)*100:.1f}%",
+                    "student_id":       sid,
+                    "risk_level":       pred.get("risk_level","N/A"),
+                    "risk_score":       pred.get("risk_score",0),
+                    "dominant_emotion": em.get("dominant_emotion","N/A"),
+                    "unpleasant_ratio": em.get("unpleasant_ratio",0),
+                    "avg_intensity":    em.get("avg_intensity",0),
+                    "bounce_back":      res.get("bounce_back_avg_checkins"),
+                    "compound_flag_%":  f"{fl.get('compound_flag_rate',0)*100:.1f}%",
                 })
             dist_df = pd.DataFrame(dist_rows).sort_values("risk_score", ascending=False)
 
             def colour_risk(val):
                 return "background-color: " + {"HIGH":"#FDECEA","MEDIUM":"#FEF9E7","LOW":"#EAFAF1"}.get(val,"white")
 
-            st.dataframe(
-                dist_df.style.applymap(colour_risk, subset=["risk_level"]),
-                use_container_width=True,
-                height=380,
-            )
-            st.caption(f"Showing up to 200 of {len(distressed_sids)} distressed students.")
+            st.dataframe(dist_df.style.applymap(colour_risk, subset=["risk_level"]),
+                         use_container_width=True, height=380)
+            st.caption(f"Showing up to 200 of {len(distressed_sids)} distressed students in view.")
         else:
-            st.success("No students classified as Emotionally Distressed in this cluster run.")
+            st.success("No Emotionally Distressed students in the current class/filter selection.")
 
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("---")
 st.markdown(
     '<p style="text-align:center; color:#9EA8CC; font-size:0.78rem; letter-spacing:0.5px;">'
-    'Switch4Schools Wellbeing Intelligence Platform &nbsp;|&nbsp; IFN735 Team 29'
+    'Switch4Schools Wellbeing Intelligence Platform &nbsp;|&nbsp; IFN735 Team 29 &nbsp;|&nbsp; Quantum Hustle'
     '</p>',
     unsafe_allow_html=True,
 )

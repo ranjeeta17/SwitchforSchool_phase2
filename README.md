@@ -1,7 +1,7 @@
 # AI-Powered Emotional Intelligence Support — Switch4Schools
 **IFN735 Industry Project | Team 29 | Phase 1 & Phase 2**
 
-> **Author of project structure & src modules:** [@Ranjeeta](N12166634)
+> **Author of project structure & src modules:** Quantum Hustle Team
 > Supervisors: Venkat Venkatachalam
 
 # How to run the project
@@ -67,7 +67,7 @@ emotional_intelligence_project/
 │   ├── 02_phase1_class_profiles.ipynb    # (rename from main_updated.ipynb)
 │   └── 03_phase1_student_risk.ipynb      # (rename from recomandation.ipynb)
 │
-├── 📂 app/                               # Streamlit web dashboard [@Ranjeeta]
+├── 📂 app/                               # Streamlit web dashboard [@Quantum Hustle]
 │   └── app.py                            # Interactive teacher-facing UI
 │
 ├── 📂 tests/                             # Unit tests
@@ -176,13 +176,13 @@ pytest tests/ -v
 
 ## 👥 Team
 
-| Name | Student No. | Focus Area |
-|------|-------------|------------|
-| Martin Fahy | N12233510 | Data pipeline & EDA |
-| Makizharasu Mohankumar | N11861088 | Risk scoring logic |
-| Jaeyi Lee | N12152773 | Trend & visualisation |
-| **Ranjeeta** | **N12166634** | **Project structure, src/ modules, dashboard** |
-| Wen-Chi Tzung | N11865181 | Recommendation engine |
+| Name | Student No. |
+|------|-------------|
+| Martin Fahy | N12233510 |
+| Makizharasu Mohankumar | N11861088 |
+| Jaeyi Lee | N12152773 |
+| **Ranjeeta** | **N12166634** |
+| Wen-Chi Tzung | N11865181 |
 
 ---
 

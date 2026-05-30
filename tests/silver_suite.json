@@ -1,0 +1,70 @@
+{
+    "suite_metadata": {
+        "name": "Silver Test Suite",
+        "type": "Boundary Testing",
+        "description": "Designed to test model sensitivity to worsening emotional wellbeing and erratic behavior.",
+        "version": "1.0"
+    },
+    "archetypes": {
+        "linear_decline_risk": {
+            "config": {
+                "count":20,
+                "trend": "linear",
+                "variance": 0.08
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.15, "FALSE": 0.85},
+                "Emotion": {"HAPPY": 0.2, "SAD": 0.2, "ANXIOUS": 0.2, "ANGRY": 0.1, "EXCITED": 0.2, "SCARED": 0.1},
+                "Intensity": {"0.2": 0.2, "0.4": 0.2, "0.6": 0.2, "0.8": 0.2, "1.0": 0.2},
+                "Tiredness": {"1": 0.2, "2": 0.2, "3": 0.2, "4": 0.2, "5": 0.2},
+                "Request For Chat": {"YES": 0.3, "NO": 0.4, "NOT_YET": 0.3},
+                "Eating": {"YES": 0.7, "NO": 0.3}
+            }
+        },
+        "sudden_crisis_sigmoid": {
+            "config": {
+                "count": 20,
+                "trend": "sigmoid",
+                "variance": 0.04
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.1, "FALSE": 0.9},
+                "Emotion": {"HAPPY": 0.4, "SAD": 0.1, "ANXIOUS": 0.1, "ANGRY": 0.1, "EXCITED": 0.2, "SCARED": 0.1},
+                "Intensity": {"0.33": 0.33, "0.67": 0.33, "1.0": 0.34},
+                "Tiredness": {"1": 0.4, "2": 0.2, "3": 0.2, "4": 0.1, "5": 0.1},
+                "Request For Chat": {"YES": 0.1, "NO": 0.7, "NOT_YET": 0.2},
+                "Eating": {"YES": 0.8, "NO": 0.2}
+            }
+        },
+        "erratic_struggler_sine": {
+            "config": {
+                "count": 20,
+                "trend": "sine",
+                "variance": 0.15
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.2, "FALSE": 0.8},
+                "Emotion": {"HAPPY": 0.25, "SAD": 0.15, "ANXIOUS": 0.15, "ANGRY": 0.15, "EXCITED": 0.15, "SCARED": 0.15},
+                "Intensity": {"0.14": 0.14, "0.29": 0.14, "0.43": 0.14, "0.57": 0.14, "0.71": 0.14, "0.86": 0.14, "1.0": 0.16},
+                "Tiredness": {"1": 0.2, "2": 0.2, "3": 0.2, "4": 0.2, "5": 0.2},
+                "Request For Chat": {"YES": 0.4, "NO": 0.3, "NOT_YET": 0.3},
+                "Eating": {"YES": 0.6, "NO": 0.4}
+            }
+        },
+        "stable_high_risk_step": {
+            "config": {
+                "count": 20,
+                "trend": "step",
+                "variance": 0.05
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.25, "FALSE": 0.75},
+                "Emotion": {"HAPPY": 0.1, "SAD": 0.3, "ANXIOUS": 0.3, "ANGRY": 0.1, "EXCITED": 0.1, "SCARED": 0.1},
+                "Intensity": {"0.5": 0.5, "1.0": 0.5},
+                "Tiredness": {"4": 0.5, "5": 0.5},
+                "Request For Chat": {"YES": 0.5, "NO": 0.2, "NOT_YET": 0.3},
+                "Eating": {"YES": 0.5, "NO": 0.5}
+            }
+        }
+    }
+}

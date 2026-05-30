@@ -1,0 +1,55 @@
+{
+    "suite_metadata": {
+        "name": "Gold Test Suite",
+        "type": "Control Group",
+        "description": "Stable baseline for typical students with no high-risk trajectories.",
+        "version": "1.0"
+    },
+    "archetypes": {
+        "optimist_primary": {
+            "config": {
+                "count": 34,
+                "trend": "sine",
+                "variance": 0.05
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.1, "FALSE": 0.9},
+                "Emotion": {"HAPPY": 0.5, "EXCITED": 0.5},
+                "Intensity": {"0.33": 0.33, "0.67": 0.33, "1.0": 0.34},
+                "Tiredness": {"1": 0.4, "2": 0.2, "3": 0.2, "4": 0.1, "5": 0.1},
+                "Request For Chat": {"YES": 0.2, "NO": 0.6, "NOT_YET": 0.2},
+                "Eating": {"YES": 0.9, "NO": 0.1}
+            }
+        },
+        "optimist_middle": {
+            "config": {
+                "count": 33,
+                "trend": "sine",
+                "variance": 0.08
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.1, "FALSE": 0.9},
+                "Emotion": {"HAPPY": 0.5, "EXCITED": 0.5},
+                "Intensity": {"0.2": 0.2, "0.4": 0.2, "0.6": 0.2, "0.8": 0.2, "1.0": 0.2},
+                "Tiredness": {"1": 0.4, "2": 0.2, "3": 0.2, "4": 0.1, "5": 0.1},
+                "Request For Chat": {"YES": 0.2, "NO": 0.6, "NOT_YET": 0.2},
+                "Eating": {"YES": 0.9, "NO": 0.1}
+            }
+        },
+        "optimist_high": {
+            "config": {
+                "count": 33,
+                "trend": "sine",
+                "variance": 0.1
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.1, "FALSE": 0.9},
+                "Emotion": {"HAPPY": 0.5, "EXCITED": 0.5},
+                "Intensity": {"0.14": 0.14, "0.29": 0.14, "0.43": 0.14, "0.57": 0.14, "0.71": 0.14, "0.86": 0.14, "1.0": 0.16},
+                "Tiredness": {"1": 0.4, "2": 0.2, "3": 0.2, "4": 0.1, "5": 0.1},
+                "Request For Chat": {"YES": 0.2, "NO": 0.6, "NOT_YET": 0.2},
+                "Eating": {"YES": 0.9, "NO": 0.1}
+            }
+        }
+    }
+}

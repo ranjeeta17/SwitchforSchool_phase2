@@ -46733,5 +46733,371 @@
       "davies_bouldin": 0.5089
     }
   ],
-  "best_k": 2
+  "best_k": 2,
+  "all_k_results": {
+    "2": {
+      "k": 2,
+      "silhouette": 0.5587,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 631,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.643,
+          "mean_avg_tiredness": 2.66
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 11038,
+          "mean_unpleasant_ratio": 0.115,
+          "mean_avg_intensity": 0.684,
+          "mean_avg_tiredness": 4.014
+        }
+      },
+      "pca_image": "cluster_kmeans_k2_pca.png"
+    },
+    "3": {
+      "k": 3,
+      "silhouette": 0.2992,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 5136,
+          "mean_unpleasant_ratio": 0.206,
+          "mean_avg_intensity": 0.513,
+          "mean_avg_tiredness": 3.465
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 5902,
+          "mean_unpleasant_ratio": 0.036,
+          "mean_avg_intensity": 0.833,
+          "mean_avg_tiredness": 4.491
+        },
+        "2": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 631,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.643,
+          "mean_avg_tiredness": 2.66
+        }
+      },
+      "pca_image": "cluster_kmeans_k3_pca.png"
+    },
+    "4": {
+      "k": 4,
+      "silhouette": 0.3065,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 5799,
+          "mean_unpleasant_ratio": 0.035,
+          "mean_avg_intensity": 0.835,
+          "mean_avg_tiredness": 4.494
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 5132,
+          "mean_unpleasant_ratio": 0.207,
+          "mean_avg_intensity": 0.518,
+          "mean_avg_tiredness": 3.494
+        },
+        "2": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 631,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.643,
+          "mean_avg_tiredness": 2.66
+        },
+        "3": {
+          "archetype": "Stable",
+          "n_students": 107,
+          "mean_unpleasant_ratio": 0.042,
+          "mean_avg_intensity": 0.521,
+          "mean_avg_tiredness": 2.85
+        }
+      },
+      "pca_image": "cluster_kmeans_k4_pca.png"
+    },
+    "5": {
+      "k": 5,
+      "silhouette": 0.2819,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 3490,
+          "mean_unpleasant_ratio": 0.268,
+          "mean_avg_intensity": 0.591,
+          "mean_avg_tiredness": 3.508
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 4672,
+          "mean_unpleasant_ratio": 0.035,
+          "mean_avg_intensity": 0.897,
+          "mean_avg_tiredness": 4.579
+        },
+        "2": {
+          "archetype": "Stable",
+          "n_students": 107,
+          "mean_unpleasant_ratio": 0.042,
+          "mean_avg_intensity": 0.521,
+          "mean_avg_tiredness": 2.85
+        },
+        "3": {
+          "archetype": "Stable",
+          "n_students": 2769,
+          "mean_unpleasant_ratio": 0.059,
+          "mean_avg_intensity": 0.448,
+          "mean_avg_tiredness": 3.742
+        },
+        "4": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 631,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.643,
+          "mean_avg_tiredness": 2.66
+        }
+      },
+      "pca_image": "cluster_kmeans_k5_pca.png"
+    },
+    "6": {
+      "k": 6,
+      "silhouette": 0.2891,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 3491,
+          "mean_unpleasant_ratio": 0.267,
+          "mean_avg_intensity": 0.591,
+          "mean_avg_tiredness": 3.511
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 107,
+          "mean_unpleasant_ratio": 0.042,
+          "mean_avg_intensity": 0.521,
+          "mean_avg_tiredness": 2.85
+        },
+        "2": {
+          "archetype": "Stable",
+          "n_students": 4645,
+          "mean_unpleasant_ratio": 0.035,
+          "mean_avg_intensity": 0.898,
+          "mean_avg_tiredness": 4.585
+        },
+        "3": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 625,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.641,
+          "mean_avg_tiredness": 2.658
+        },
+        "4": {
+          "archetype": "Stable",
+          "n_students": 2755,
+          "mean_unpleasant_ratio": 0.059,
+          "mean_avg_intensity": 0.448,
+          "mean_avg_tiredness": 3.74
+        },
+        "5": {
+          "archetype": "Stable",
+          "n_students": 46,
+          "mean_unpleasant_ratio": 0.255,
+          "mean_avg_intensity": 0.709,
+          "mean_avg_tiredness": 3.373
+        }
+      },
+      "pca_image": "cluster_kmeans_k6_pca.png"
+    },
+    "7": {
+      "k": 7,
+      "silhouette": 0.2526,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 2569,
+          "mean_unpleasant_ratio": 0.12,
+          "mean_avg_intensity": 0.804,
+          "mean_avg_tiredness": 4.263
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 3421,
+          "mean_unpleasant_ratio": 0.015,
+          "mean_avg_intensity": 0.897,
+          "mean_avg_tiredness": 4.624
+        },
+        "2": {
+          "archetype": "Stable",
+          "n_students": 45,
+          "mean_unpleasant_ratio": 0.254,
+          "mean_avg_intensity": 0.717,
+          "mean_avg_tiredness": 3.381
+        },
+        "3": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 625,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.641,
+          "mean_avg_tiredness": 2.658
+        },
+        "4": {
+          "archetype": "Stable",
+          "n_students": 2545,
+          "mean_unpleasant_ratio": 0.06,
+          "mean_avg_intensity": 0.432,
+          "mean_avg_tiredness": 3.712
+        },
+        "5": {
+          "archetype": "Stable",
+          "n_students": 107,
+          "mean_unpleasant_ratio": 0.042,
+          "mean_avg_intensity": 0.521,
+          "mean_avg_tiredness": 2.85
+        },
+        "6": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 2357,
+          "mean_unpleasant_ratio": 0.316,
+          "mean_avg_intensity": 0.524,
+          "mean_avg_tiredness": 3.243
+        }
+      },
+      "pca_image": "cluster_kmeans_k7_pca.png"
+    },
+    "8": {
+      "k": 8,
+      "silhouette": 0.258,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 3239,
+          "mean_unpleasant_ratio": 0.015,
+          "mean_avg_intensity": 0.898,
+          "mean_avg_tiredness": 4.629
+        },
+        "1": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 2266,
+          "mean_unpleasant_ratio": 0.319,
+          "mean_avg_intensity": 0.523,
+          "mean_avg_tiredness": 3.236
+        },
+        "2": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 625,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.641,
+          "mean_avg_tiredness": 2.658
+        },
+        "3": {
+          "archetype": "Stable",
+          "n_students": 2370,
+          "mean_unpleasant_ratio": 0.06,
+          "mean_avg_intensity": 0.425,
+          "mean_avg_tiredness": 3.705
+        },
+        "4": {
+          "archetype": "Stable",
+          "n_students": 602,
+          "mean_unpleasant_ratio": 0.078,
+          "mean_avg_intensity": 0.712,
+          "mean_avg_tiredness": 4.028
+        },
+        "5": {
+          "archetype": "Stable",
+          "n_students": 2445,
+          "mean_unpleasant_ratio": 0.121,
+          "mean_avg_intensity": 0.801,
+          "mean_avg_tiredness": 4.267
+        },
+        "6": {
+          "archetype": "Stable",
+          "n_students": 76,
+          "mean_unpleasant_ratio": 0.027,
+          "mean_avg_intensity": 0.48,
+          "mean_avg_tiredness": 2.594
+        },
+        "7": {
+          "archetype": "Stable",
+          "n_students": 46,
+          "mean_unpleasant_ratio": 0.255,
+          "mean_avg_intensity": 0.709,
+          "mean_avg_tiredness": 3.373
+        }
+      },
+      "pca_image": "cluster_kmeans_k8_pca.png"
+    },
+    "9": {
+      "k": 9,
+      "silhouette": 0.2363,
+      "cluster_summaries": {
+        "0": {
+          "archetype": "Stable",
+          "n_students": 1893,
+          "mean_unpleasant_ratio": 0.158,
+          "mean_avg_intensity": 0.464,
+          "mean_avg_tiredness": 3.735
+        },
+        "1": {
+          "archetype": "Stable",
+          "n_students": 3199,
+          "mean_unpleasant_ratio": 0.016,
+          "mean_avg_intensity": 0.903,
+          "mean_avg_tiredness": 4.643
+        },
+        "2": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 1393,
+          "mean_unpleasant_ratio": 0.391,
+          "mean_avg_intensity": 0.58,
+          "mean_avg_tiredness": 3.049
+        },
+        "3": {
+          "archetype": "Stable",
+          "n_students": 1990,
+          "mean_unpleasant_ratio": 0.045,
+          "mean_avg_intensity": 0.448,
+          "mean_avg_tiredness": 3.717
+        },
+        "4": {
+          "archetype": "Emotionally Distressed",
+          "n_students": 625,
+          "mean_unpleasant_ratio": 0.68,
+          "mean_avg_intensity": 0.641,
+          "mean_avg_tiredness": 2.658
+        },
+        "5": {
+          "archetype": "Stable",
+          "n_students": 63,
+          "mean_unpleasant_ratio": 0.025,
+          "mean_avg_intensity": 0.44,
+          "mean_avg_tiredness": 2.355
+        },
+        "6": {
+          "archetype": "Stable",
+          "n_students": 45,
+          "mean_unpleasant_ratio": 0.254,
+          "mean_avg_intensity": 0.717,
+          "mean_avg_tiredness": 3.381
+        },
+        "7": {
+          "archetype": "Stable",
+          "n_students": 1972,
+          "mean_unpleasant_ratio": 0.12,
+          "mean_avg_intensity": 0.855,
+          "mean_avg_tiredness": 4.314
+        },
+        "8": {
+          "archetype": "Stable",
+          "n_students": 489,
+          "mean_unpleasant_ratio": 0.081,
+          "mean_avg_intensity": 0.705,
+          "mean_avg_tiredness": 3.978
+        }
+      },
+      "pca_image": "cluster_kmeans_k9_pca.png"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 {
   "analysis_metadata": {
-    "analysis_date": "2026-04-29T05:25:09.335765",
+    "analysis_date": "2026-05-11T23:43:53.352898",
     "total_classes_analyzed": 100,
     "data_source": "studentCheckIn_cleaned.csv",
     "analysis_type": "class_based_emotional_profiling",

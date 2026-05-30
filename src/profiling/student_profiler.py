@@ -112,9 +112,11 @@ def _analyze_trend(student_data: pd.DataFrame) -> Dict[str, Any]:
 
     if "Created At" in student_data.columns:
         try:
+            # Parse timestamps explicitly — Created At arrives as raw string from CSV
+            dates = pd.to_datetime(student_data["Created At"], utc=True, errors="coerce").dt.date
             daily = (
-                student_data.set_index("Created At")["Emotion Intensity Percentage"]
-                .resample("D").mean().dropna()
+                student_data["Emotion Intensity Percentage"]
+                .groupby(dates).mean().dropna()
             )
             if len(daily) >= 7:
                 rolling = daily.rolling(window=7, min_periods=3).mean().dropna()

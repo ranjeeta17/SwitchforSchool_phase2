@@ -1,0 +1,55 @@
+{
+    "suite_metadata": {
+        "name": "Bronze Test Suite",
+        "type": "Robustness & Stress Testing",
+        "description": "High-noise, sparse-data archetypes designed to test for overfitting and cluster stability.",
+        "version": "1.0"
+    },
+    "archetypes": {
+        "the_random_walker": {
+            "config": {
+                "count": 20,
+                "trend": "sine",
+                "variance": 0.30
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.2, "FALSE": 0.8},
+                "Emotion": {"HAPPY": 0.16, "SAD": 0.16, "ANXIOUS": 0.16, "ANGRY": 0.16, "EXCITED": 0.16, "SCARED": 0.2},
+                "Intensity": {"0.2": 0.2, "0.4": 0.2, "0.6": 0.2, "0.8": 0.2, "1.0": 0.2},
+                "Tiredness": {"1": 0.2, "2": 0.2, "3": 0.2, "4": 0.2, "5": 0.2},
+                "Request For Chat": {"YES": 0.33, "NO": 0.33, "NOT_YET": 0.34},
+                "Eating": {"YES": 0.5, "NO": 0.5}
+            }
+        },
+        "sparse_participant": {
+            "config": {
+                "count": 20,
+                "trend": "linear",
+                "variance": 0.15
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.6, "FALSE": 0.4},
+                "Emotion": {"HAPPY": 0.3, "SAD": 0.3, "ANXIOUS": 0.1, "ANGRY": 0.1, "EXCITED": 0.1, "SCARED": 0.1},
+                "Intensity": {"0.33": 0.33, "0.67": 0.33, "1.0": 0.34},
+                "Tiredness": {"1": 0.2, "2": 0.2, "3": 0.2, "4": 0.2, "5": 0.2},
+                "Request For Chat": {"YES": 0.2, "NO": 0.6, "NOT_YET": 0.2},
+                "Eating": {"YES": 0.5, "NO": 0.5}
+            }
+        },
+        "contradictory_signals": {
+            "config": {
+                "count": 10,
+                "trend": "sigmoid",
+                "variance": 0.1
+            },
+            "persona": {
+                "Absence": {"TRUE": 0.1, "FALSE": 0.9},
+                "Emotion": {"HAPPY": 0.8, "SAD": 0.05, "ANXIOUS": 0.05, "ANGRY": 0.1},
+                "Intensity": {"1.0": 0.9, "0.1": 0.1},
+                "Tiredness": {"5": 0.7, "1": 0.3},
+                "Request For Chat": {"YES": 0.8, "NO": 0.1, "NOT_YET": 0.1},
+                "Eating": {"NO": 0.9, "YES": 0.1}
+            }
+        }
+    }
+}

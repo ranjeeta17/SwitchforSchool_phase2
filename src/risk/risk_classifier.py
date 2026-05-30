@@ -42,7 +42,7 @@ def classify_student_risk(profile: Dict[str, Any]) -> Dict[str, Any]:
     +10  7-day longitudinal trend is worsening
     +10–20 Compound flag rate (2+ risk flags co-occurring)
     +8–15  Slow bounce-back after dysregulation
-    +5–15  Chat support requests
+    +3–15  Chat support request rate (≥3% → +3, ≥10% → +8, ≥25% → +15)
 
     Thresholds: HIGH >= 50, MEDIUM >= 25, LOW < 25
 
@@ -62,6 +62,8 @@ def classify_student_risk(profile: Dict[str, Any]) -> Dict[str, Any]:
     avg_tiredness        = wellness.get("avg_tiredness", 3.0)
     absence_rate         = wellness.get("absence_rate", 0.0)
     chat_requests        = wellness.get("chat_requests", 0)
+    total_checkins       = max(profile.get("total_checkins", 1), 1)
+    chat_rate            = chat_requests / total_checkins   # proportion of sessions with chat request
     trend_direction      = trend.get("trend", "stable")
     longitudinal         = trend.get("longitudinal_direction", "insufficient_data")
     bounce_back          = resilience.get("bounce_back_avg_checkins")
@@ -120,9 +122,16 @@ def classify_student_risk(profile: Dict[str, Any]) -> Dict[str, Any]:
         risk_score += 8
         risk_factors.append(f"Moderate emotional recovery speed (avg {bounce_back:.1f} check-ins)")
 
-    if chat_requests > 0:
-        risk_score += min(chat_requests * 5, 15)
-        risk_factors.append(f"Student requested {chat_requests} wellbeing chat(s)")
+    # Rate-based chat scoring — scale-invariant (works for 50 check-ins or 10,000)
+    if chat_rate >= 0.25:
+        risk_score += 15
+        risk_factors.append(f"Frequent wellbeing chat requests ({chat_rate:.0%} of sessions)")
+    elif chat_rate >= 0.10:
+        risk_score += 8
+        risk_factors.append(f"Regular wellbeing chat requests ({chat_rate:.0%} of sessions)")
+    elif chat_rate >= 0.03:
+        risk_score += 3
+        risk_factors.append(f"Occasional wellbeing chat requests ({chat_rate:.0%} of sessions)")
 
     # ── Classification ─────────────────────────────────────────────────────
     if risk_score >= 50:

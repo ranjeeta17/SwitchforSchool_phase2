@@ -69,6 +69,43 @@ def export_recommendations(
     return str(path)
 
 
+def export_class_student_map(
+    merged_df,
+    class_profiles: Dict[str, Dict],
+    filename: str = "class_student_map.json",
+) -> str:
+    """
+    Export a mapping of class_id → {class_name, student_ids} so the
+    dashboard can filter every student-level view by the selected class.
+    Only includes the top-N classes that were profiled (i.e. in class_profiles).
+    """
+    _ensure_outputs_dir()
+    class_map = {}
+    for class_id, group in merged_df.groupby("Class ID"):
+        str_cid = str(class_id)
+        if str_cid not in class_profiles:
+            continue
+        profile = class_profiles[str_cid]
+        class_map[str_cid] = {
+            "class_name": profile.get("class_name", str_cid),
+            "student_ids": [str(sid) for sid in group["Student ID"].dropna().unique().tolist()],
+        }
+
+    output = {
+        "analysis_metadata": {
+            "analysis_date":   datetime.now().isoformat(),
+            "total_classes":   len(class_map),
+            "author":          "@Ranjeeta",
+        },
+        "class_map": class_map,
+    }
+    path = OUTPUTS_DIR / filename
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False, default=str)
+    print(f"[Exporter] Class→Student map saved → {path}")
+    return str(path)
+
+
 def export_student_profiles(student_profiles: Dict[str, Dict], filename: str = "student_profiles.json") -> str:
     """
     Save full per-student profiles (including resilience + dysregulation_flags)

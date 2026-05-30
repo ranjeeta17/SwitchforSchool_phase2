@@ -707,6 +707,67 @@ def build_cluster_output(
 
 
 # ══════════════════════════════════════════════════════════════
+#  SECTION 8b — Multi-K Visualisations (all K values explored)
+# ══════════════════════════════════════════════════════════════
+
+def run_all_k_visualizations(
+    X_scaled: np.ndarray,
+    feature_df: pd.DataFrame,
+    X_pca: np.ndarray,
+    pca: PCA,
+    k_range: range = range(2, 10),
+    output_dir: str = OUTPUT_DIR,
+) -> Dict[str, Any]:
+    """
+    Run K-Means for every K in k_range, save a PCA scatter PNG per K,
+    and return cluster composition data for each K so the dashboard
+    can let teachers explore K=2, K=3, K=4 … interactively.
+
+    Saves: cluster_kmeans_k{K}_pca.png for each K.
+    Returns: { "2": {silhouette, cluster_summaries, pca_image}, "3": {...}, ... }
+    """
+    _log(f"Generating per-K visualisations (K={k_range.start}–{k_range.stop - 1}) ...")
+    all_k_data: Dict[str, Any] = {}
+
+    for k in k_range:
+        labels = run_kmeans(X_scaled, k)
+        arch   = assign_archetypes(feature_df, labels)
+        sil    = float(silhouette_score(X_scaled, labels)) if len(set(labels)) > 1 else 0.0
+
+        # PCA scatter for this specific K
+        fig, ax = plt.subplots(figsize=(9, 6))
+        _scatter_pca(ax, X_pca, labels, f"K-Means — K={k}  (silhouette={sil:.4f})", arch, pca)
+        img_name = f"cluster_kmeans_k{k}_pca.png"
+        img_path = os.path.join(output_dir, img_name)
+        plt.savefig(img_path, dpi=130, bbox_inches="tight")
+        plt.close()
+        _log(f"  K={k}  silhouette={sil:.4f}  → {img_name}", step="MultiK")
+
+        # Cluster composition summary
+        counts = Counter(labels.tolist())
+        cluster_summaries = {}
+        for cid in sorted(counts.keys()):
+            grp = feature_df[labels == cid]
+            cluster_summaries[str(cid)] = {
+                "archetype":            arch.get(int(cid), f"Cluster {cid}"),
+                "n_students":           int(counts[cid]),
+                "mean_unpleasant_ratio": round(float(grp["unpleasant_ratio"].mean()), 3),
+                "mean_avg_intensity":   round(float(grp["avg_intensity"].mean()), 3),
+                "mean_avg_tiredness":   round(float(grp["avg_tiredness"].mean()), 3),
+            }
+
+        all_k_data[str(k)] = {
+            "k":                int(k),
+            "silhouette":       round(sil, 4),
+            "cluster_summaries": cluster_summaries,
+            "pca_image":        img_name,
+        }
+
+    _log(f"Multi-K visualisations complete — {len(all_k_data)} K values saved.")
+    return all_k_data
+
+
+# ══════════════════════════════════════════════════════════════
 #  SECTION 9 — Main Entry Point
 # ══════════════════════════════════════════════════════════════
 
@@ -754,6 +815,13 @@ def cluster_students(
     # 3 ── PCA (shared) ────────────────────────────────────────
     _log("Step 3/7 — Computing PCA 2D/3D projections for visualisation ...")
     X_pca, pca = compute_pca(X_scaled)
+
+    # 3b ── Multi-K visualisations (all K=2..9 for dashboard exploration) ──
+    _log("Step 3b — Generating per-K PCA scatter plots for all K values ...")
+    all_k_results = run_all_k_visualizations(
+        X_scaled, feature_df, X_pca, pca,
+        k_range=range(2, 10), output_dir=output_dir,
+    )
 
     # 4 ── Run algorithms ──────────────────────────────────────
     _log("Step 4/7 — Running 4 clustering algorithms ...")
@@ -815,7 +883,8 @@ def cluster_students(
         best_algo,
     )
     result["metrics_comparison"] = all_metrics
-    result["best_k"] = best_k
+    result["best_k"]             = best_k
+    result["all_k_results"]      = all_k_results   # per-K data for dashboard K explorer
 
     out_path = os.path.join(output_dir, "student_clusters.json")
     with open(out_path, "w") as f:
