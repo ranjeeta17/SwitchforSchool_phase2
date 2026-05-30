@@ -1,0 +1,11 @@
+Data Generation
+
+- json files contain baseline probabilities for student check-in responses
+
+- place required json files into /src/data
+
+- if creating new json files, must create in the same format, e.g., will not save csv file if "suite_metadata" does not contain "name"
+
+- json files passed to run_generator.py (number of check ins per student can be edited here)
+
+- output in /datasets
